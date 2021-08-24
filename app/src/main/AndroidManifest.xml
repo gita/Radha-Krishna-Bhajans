@@ -23,6 +23,7 @@
             android:value="ca-app-pub-4070209682123577~6974698932"/>
         <activity
             android:name=".MainActivity"
+            android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -64,6 +65,21 @@
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".BhagavadGita"/>
+
+        <receiver
+            android:name="com.onesignal.GcmBroadcastReceiver"
+            android:exported="true"
+            tools:node="merge"/>
+        <receiver android:name="com.onesignal.NotificationOpenedReceiver"
+            android:exported="true"
+            tools:node="merge" />
+        <receiver android:name="com.onesignal.BootUpReceiver"
+            android:exported="true"
+            tools:node="merge"/>
+
+        <receiver android:name="com.onesignal.UpgradeReceiver"
+            android:exported="true"
+            tools:node="merge"/>
     </application>
 
 </manifest>
