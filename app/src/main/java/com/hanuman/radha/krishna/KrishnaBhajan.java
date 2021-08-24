@@ -39,7 +39,6 @@ import android.widget.Toast;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdSize;
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.kobakei.ratethisapp.RateThisApp;
 import com.hanuman.radha.krishna.fragments.MainFragment;
 import com.hanuman.radha.krishna.fragments.SecondFragment;
 
@@ -154,9 +153,6 @@ public class KrishnaBhajan extends BaseActivity implements MediaPlayer.OnPrepare
         filenameID = getResources().getIdentifier(filename, "raw", getPackageName());
 
         mantraText = getResources().getString(mantraID);
-
-        RateThisApp.onCreate(this);
-        RateThisApp.showRateDialogIfNeeded(this);
 
         playButton = (ImageButton) findViewById(R.id.btn1);
         bellButton = (ImageButton) findViewById(R.id.btn2);

@@ -47,7 +47,6 @@ import com.google.android.gms.ads.AdView;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.hanuman.radha.krishna.fragments.MainFragment;
 import com.hanuman.radha.krishna.fragments.SecondFragment;
-import com.kobakei.ratethisapp.RateThisApp;
 
 import java.io.IOException;
 
@@ -162,9 +161,6 @@ public class KanhaBhajan extends BaseActivity implements MediaPlayer.OnPreparedL
         filenameID = getResources().getIdentifier(filename, "raw", getPackageName());
 
         mantraText = getResources().getString(mantraID);
-
-        RateThisApp.onCreate(this);
-        RateThisApp.showRateDialogIfNeeded(this);
 
         playButton = (ImageButton) findViewById(R.id.btn1);
         bellButton = (ImageButton) findViewById(R.id.btn2);
