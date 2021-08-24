@@ -120,7 +120,7 @@ public class KanhaBhajan extends BaseActivity implements MediaPlayer.OnPreparedL
         ((RelativeLayout)adContainer).addView(mAdView);
 
         if (!mAdFree) {
-            AdRequest adRequest = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).addTestDevice(TEST_DEVICE).addTestDevice(RADHA).addTestDevice(KRISHNA).build();
+            AdRequest adRequest = new AdRequest.Builder().build();
             mAdView.loadAd(adRequest);
         } else {
             mAdView.setVisibility(View.GONE);

@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -12,8 +14,11 @@ import android.widget.ListView;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.google.android.gms.ads.InterstitialAd;
 
 /**
  * RadhaKrishna
@@ -109,31 +114,50 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
 
         list.setOnItemClickListener(this);
 
-        mInterstitialAd = new InterstitialAd(this);
+        loadInterstitial();
+
+    }
+
+    private void loadInterstitial(){
+        String interstitialId = "";
         if (BuildConfig.DEBUG) {
-            mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+            interstitialId = "ca-app-pub-3940256099942544/1033173712";
         } else {
-            mInterstitialAd.setAdUnitId("ca-app-pub-4070209682123577/7601384893");
+            interstitialId = "ca-app-pub-4070209682123577/7601384893";
         }
 
         if (!mAdFree) {
-            mInterstitialAd.loadAd(new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).addTestDevice(TEST_DEVICE).addTestDevice(RADHA).addTestDevice(KRISHNA).build());
-
-            mInterstitialAd.setAdListener(new AdListener() {
+            AdRequest adRequest = new AdRequest.Builder().build();
+            InterstitialAd.load(MantraList.this,interstitialId, adRequest, new InterstitialAdLoadCallback() {
                 @Override
-                public void onAdClosed() {
-                    mInterstitialAd.loadAd(new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).addTestDevice(TEST_DEVICE).addTestDevice(RADHA).addTestDevice(KRISHNA).build());
+                public void onAdLoaded(@NonNull com.google.android.gms.ads.interstitial.InterstitialAd interstitialAd) {
+                    super.onAdLoaded(interstitialAd);
+                    mInterstitialAd = interstitialAd;
+                    mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback() {
+                        @Override
+                        public void onAdShowedFullScreenContent() {
+                            super.onAdShowedFullScreenContent();
+                            mInterstitialAd = null;
+                            loadInterstitial();
+                        }
+                    });
+                }
+
+                @Override
+                public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                    // Handle the error
+                    Log.i("Ads", loadAdError.getMessage());
+                    mInterstitialAd = null;
                 }
             });
         }
-
     }
 
     @Override
     public void onItemClick(AdapterView<?> l, View v, int position, long id) {
 
-        if (mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
+        if (mInterstitialAd!=null) {
+            mInterstitialAd.show(MantraList.this);
         } else {
             Log.d("TAG", "The interstitial wasn't loaded yet.");
         }

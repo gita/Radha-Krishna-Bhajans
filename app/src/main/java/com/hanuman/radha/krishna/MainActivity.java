@@ -11,17 +11,22 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.billingclient.api.BillingClient;
 import com.android.billingclient.api.BillingClientStateListener;
 import com.android.billingclient.api.BillingFlowParams;
+import com.android.billingclient.api.BillingResult;
 import com.android.billingclient.api.Purchase;
 import com.android.billingclient.api.PurchasesUpdatedListener;
+import com.android.billingclient.api.SkuDetailsParams;
 import com.google.android.gms.ads.MobileAds;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.onesignal.OneSignal;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static com.hanuman.radha.krishna.PreferenceHelper.setAdFree;
@@ -70,19 +75,10 @@ public class MainActivity extends AppCompatActivity implements PurchasesUpdatedL
                 .unsubscribeWhenNotificationsAreDisabled(true)
                 .init();
 
-        MobileAds.initialize(this, "ca-app-pub-4070209682123577~6974698932");
-
 
         // Establish connection to billing client
-        mBillingClient = BillingClient.newBuilder(MainActivity.this).setListener(this).build();
+        mBillingClient = BillingClient.newBuilder(MainActivity.this).setListener(this).enablePendingPurchases().build();
         mBillingClient.startConnection(new BillingClientStateListener() {
-            @Override
-            public void onBillingSetupFinished(@BillingClient.BillingResponse int billingResponseCode) {
-                if (billingResponseCode == BillingClient.BillingResponse.OK) {
-                    // The billing client is ready. You can query purchases here.
-
-                }
-            }
 
             @Override
             public void onBillingServiceDisconnected() {
@@ -90,6 +86,11 @@ public class MainActivity extends AppCompatActivity implements PurchasesUpdatedL
                 Toast.makeText(MainActivity.this,  getResources().getString(R.string.billing_connection_failure), Toast.LENGTH_SHORT);
                 // Try to restart the connection on the next request to
                 // Google Play by calling the startConnection() method.
+            }
+
+            @Override
+            public void onBillingSetupFinished(@NonNull BillingResult billingResult) {
+
             }
         });
 
@@ -100,11 +101,19 @@ public class MainActivity extends AppCompatActivity implements PurchasesUpdatedL
             public void onClick(View view) {
                 // If user clicks the buy button, launch the billing flow for an ad removal  purchase
                 // Response is handled using onPurchasesUpdated listener
-                BillingFlowParams flowParams = BillingFlowParams.newBuilder()
-                        .setSku(ITEM_SKU_ADREMOVAL)
-                        .setType(BillingClient.SkuType.INAPP)
-                        .build();
-                int responseCode = mBillingClient.launchBillingFlow(MainActivity.this, flowParams);
+                List<String> skuList = new ArrayList<>();
+                skuList.add(ITEM_SKU_ADREMOVAL);
+                SkuDetailsParams.Builder params = SkuDetailsParams.newBuilder();
+                params.setSkusList(skuList).setType(BillingClient.SkuType.INAPP);
+                mBillingClient.querySkuDetailsAsync(params.build(),
+                        (billingResult, skuDetailsList) -> {
+                            if (skuDetailsList != null && skuDetailsList.size() > 0) {
+                                BillingFlowParams billingFlowParams = BillingFlowParams.newBuilder()
+                                        .setSkuDetails(skuDetailsList.get(0))
+                                        .build();
+                                mBillingClient.launchBillingFlow(MainActivity.this, billingFlowParams).getResponseCode();
+                            }
+                        });
             }
         });
 
@@ -181,7 +190,7 @@ public class MainActivity extends AppCompatActivity implements PurchasesUpdatedL
             }
             if (!purchasesList.isEmpty()) {
                 for (Purchase purchase : purchasesList) {
-                    if (purchase.getSku().equals(ITEM_SKU_ADREMOVAL)) {
+                    if (purchase.getSkus().get(0).equals(ITEM_SKU_ADREMOVAL)) {
                         mSharedPreferences.edit().putBoolean(getResources().getString(R.string.pref_remove_ads_key), true).apply();
                         setAdFree(true);
                         mBuyButton.setText(getResources().getString(R.string.pref_ad_removal_purchased));
@@ -194,7 +203,7 @@ public class MainActivity extends AppCompatActivity implements PurchasesUpdatedL
     }
 
     private void handlePurchase(Purchase purchase) {
-        if (purchase.getSku().equals(ITEM_SKU_ADREMOVAL)) {
+        if (purchase.getSkus().get(0).equals(ITEM_SKU_ADREMOVAL)) {
             mSharedPreferences.edit().putBoolean(getResources().getString(R.string.pref_remove_ads_key), true).apply();
             setAdFree(true);
             mBuyButton.setText(getResources().getString(R.string.pref_ad_removal_purchased));
@@ -202,32 +211,26 @@ public class MainActivity extends AppCompatActivity implements PurchasesUpdatedL
         }
     }
 
+
+
     @Override
-    public void onPurchasesUpdated(int responseCode, @androidx.annotation.Nullable List<com.android.billingclient.api.Purchase> purchases) {
-
-        //Handle the responseCode for the purchase
-        //If response code is OK,  handle the purchase
-        //If user already owns the item, then indicate in the shared prefs that item is owned
-        //If cancelled/other code, log the error
-
-        if (responseCode == BillingClient.BillingResponse.OK
-                && purchases != null) {
-            for (Purchase purchase : purchases) {
+    public void onPurchasesUpdated(@NonNull BillingResult billingResult, @Nullable List<Purchase> list) {
+        if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK
+                && list != null) {
+            for (Purchase purchase : list) {
                 handlePurchase(purchase);
             }
-        } else if (responseCode == BillingClient.BillingResponse.USER_CANCELED) {
+        } else if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.USER_CANCELED) {
             // Handle an error caused by a user cancelling the purchase flow.
-            Log.d(TAG, "User Canceled" + responseCode);
-        } else if (responseCode == BillingClient.BillingResponse.ITEM_ALREADY_OWNED) {
+            Log.d(TAG, "User Canceled" + billingResult.getResponseCode());
+        } else if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.ITEM_ALREADY_OWNED) {
             mSharedPreferences.edit().putBoolean(getResources().getString(R.string.pref_remove_ads_key), true).apply();
             setAdFree(true);
             mBuyButton.setText(getResources().getString(R.string.pref_ad_removal_purchased));
             mBuyButton.setEnabled(false);
         } else {
-            Log.d(TAG, "Other code" + responseCode);
+            Log.d(TAG, "Other code" + billingResult.getResponseCode());
             // Handle any other error codes.
         }
     }
-
-
 }
