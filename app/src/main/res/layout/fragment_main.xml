@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+
+    android:paddingTop="0dp"
+    tools:context="com.hanuman.radha.krishna.MainActivity">
+
+    <ImageView
+        android:id="@+id/mahamantraBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/maiyaMoriBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/govindmeroBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ommantraBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/aartikunjbihariBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/badanatkhathaikrishnaBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/chotichotigaiyaBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+            android:id="@+id/yashomatimaiyaBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/meraaapkikripaBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+            android:id="@+id/achyutamkeshavamBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/aredwarpalokanhaiyaBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ek_baar_to_radha_bankarBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/gopal_muraliya_waleBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/govind_bolo_hari_gopal_boloBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/kabhi_ram_bankeBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/kisi_ne_mera_shyam_dekhaBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/mithe_ras_se_bharyoBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/mohana_muralidharamBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/om_jai_jagadish_hareBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/radhe_radhe_japa_karoBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/shri_krishna_govind_hare_murariBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/shyam_teri_bansi_pukare_radha_naamBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/shyama_aan_baso_vrindavanBhajan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
+

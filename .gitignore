@@ -44,6 +44,10 @@ captures/
 .idea/assetWizardSettings.xml
 .idea/dictionaries
 .idea/libraries
+<<<<<<< HEAD
+=======
+.idea/jarRepositories.xml
+>>>>>>> 0701136 (init)
 # Android Studio 3 in .gitignore file.
 .idea/caches
 .idea/modules.xml
@@ -83,3 +87,9 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+# Android Profiling
+*.hprof
+
+.DS_Store
+.idea

@@ -1,0 +1,78 @@
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/'}
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.12.4'
+    }
+}
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.2'
+    defaultConfig {
+        applicationId "com.hanuman.radha.krishna"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 42
+        versionName "3.9"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [
+                onesignal_app_id: '88515dc8-1447-4d07-8b8b-d510521a325c',
+                onesignal_google_project_number: 'REMOTE'
+        ]
+    }
+    lintOptions {
+        checkReleaseBuilds false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    repositories {
+        jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+    buildTypes {
+        release {
+//            minifyEnabled true
+//            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.browser:browser:1.2.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.android.billingclient:billing:1.2.2'
+
+    implementation 'io.github.kobakei:ratethisapp:1.2.0'
+    implementation 'com.google.firebase:firebase-ads:15.0.1'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.onesignal:OneSignal:3.10.6'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    implementation 'com.google.firebase:firebase-core:16.0.7'
+
+}
+
+apply plugin: 'com.google.gms.google-services'

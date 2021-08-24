@@ -1,0 +1,3064 @@
+<resources>
+    <string name="app_name">Krishna Bhajans</string>
+
+    <string name="my_mantra_new1">Lullaby of the Ocean</string>
+
+    <string name="maiya_mori_bhajan">Maiyaa mori, main Nahi Makhan Khayo\n
+
+    \nBhor bhayo gaiyan ke paache, Madhuvan mohi pathayo
+
+    \nchaar prahar vanshivat bhatakyo, saanj pare ghar aayo\n
+
+
+    \nMain baalak bahiyan ko choto, chinko kidi vidhi payo
+
+    \nGwaal baal sab bair pare hain, barbas mukh laptayo\n
+
+
+    \nTu janani man kii ati mori, inke kahe patiyaayo
+
+    \nJiya tete kachu bhed upjihai, jaani parayo jaayo\n
+
+
+    \nYaha le apani lakuti kambaliyaa, bahutahi naach nachaayo
+
+    \nJiya tete kachu bhed upjihai, jaani parayo jaayo
+
+    \nSurdas tab hanshi Yashodaa, lai ur-kanth lagaayo.
+    </string>
+    <string name="om_mantra_bhajan">Aum</string>
+    <string name="mahamantra_bhajan">Hare Krishna Hare Krishna,
+        \nKrishna Krishna Hare Hare\n
+
+        \nHare Rama Hare Rama,
+        \nRama Rama Hare Hare
+
+    </string>
+    <string name="aarti_kunj_bihari_bhajan">Aarti kunj bihari ki, shri girdhar krishna murari ki\n
+
+    \nGale mein baijanti mala, bajave murali madhur bala
+    \nShravan mein kundal jhalakala\n
+
+    \nNand ke anand nand lala
+    \nGagan sam ang kanti kali, radhika chamak rahi aali\n
+
+    \nRatan mein thadhe banamali
+    \nBhramar si alak, kasturi tilak, chandra si jhalak\n
+
+    \nLalit chhavi shyama pyari ki
+    \nShri giradhar krishnamuraari ki\n
+
+    \nAarti kunj bihari ki , Shri girdhar krishna murari ki\n
+
+    \nKanakmay mor mukut bilse, devata darsan ko tarse
+    \nGagan so suman raasi bares\n
+
+    \nBaje murchang, madhur mridang, gwaalin sang
+    \nAtual rati gop kumaari ki Shri giradhar krishna murari ki\n
+
+    \nAarti kunj bihari ki, Shri girdhar krishna murari ki
+
+    \nJahaan se pragat bhayi ganga, kalush kali haarini shri ganga,
+    \nSmaran se hot moh bhanga\n
+
+    \nBasi shiv shish, jataa ke beech, harei agh keech;
+    \nCharan chhavi shri banvaari ki. Shri giradhar krishnamuraari ki…\n
+
+    \nAarti kunj bihari ki, Shri girdhar krishna murari ki\n
+
+    \nChamakati ujjawal tat renu, baj rahi vrindavan benu
+    \nChahu disi gopi gwaal dhenu\n
+
+    \nHansat mridu mand, chandani chandra, katat bhav phand
+    \nTer sun deen bhikhaari ki, Shri giradhar krishnamuraari ki\n
+
+    \nAarti kunj bihari ki, Shri girdhar krishna murari ki
+    </string>
+    <string name="govind_mero_bhajan">Govind mero hai gopal mero hai\n
+
+    \nShri banke bihari nandlal mero hai
+    \nGovind mero hai gopal mero hai\n
+
+    \nGovind mero hai gopal mero hai
+    \nShri banke bihari nandlal mero hai
+    \nGovind mero hai gopal mero hai\n
+
+    \nGovind mero hai gopal mero hai
+    \nShri banke bihari nandlal mero hai
+    \nGovind mero hai gopal mero hai\n
+
+    \nGovind mero hai gopal mero hai
+    \nShri banke bihari nandlal mero hai
+    \nGovind mero hai gopal mero hai
+    </string>
+    <string name="bada_natkhat_bhajan">Bada Natkhat Hai Re Krishan Kanhaiya
+    \nKa Kare Yashoda Maiya Haan॥ Bada Natkhat Hai Re…॥\n
+
+    \nDhoondhe Ri Ankhiyaan Use Chanhu Aur
+    \nJaane Kahan Chhup Gaya Nandkishor॥ Dhoondhe Ri Ankhiyaan…॥
+    \nUd Gaya Aise Jaise Puravaiya, Ka Kare Yashoda Maiya Haan
+    \nBada Natkhat Hai Re…॥\n
+
+    \nMere Jeevan Ka Tu Ek Hi Sapna
+    \nJo Koi Dekhe Tohe Samjhe Woh Apna॥ Mere Jeevan Ka…॥
+    \nSabka Hai Pyara Bansi Bajaiya, Ka Kare Yashoda Maiya Haan
+    \nBada Natkhat Hai Re…॥\n
+
+    \nAa Tohe Main Gale Se Laga Loon
+    \nLaage Na Kisi Ki Nazar, Man Mein Chhupa Loon॥ Aa Tohe Main Gale…॥
+    \nDhoop Jagat Hai Re Mamta Hai Chhaiyaan, Ka Kare Yashoda Maiya Haan
+    \nBada Natkhat Hai Re…॥
+    </string>
+    <string name="choti_choti_bhajan">Choti Choti Gaiya Chotay Chotay Gwaal
+    \nChotoso Mero Madan Gopal\n
+
+    \nAage Aage Gaiya Pichay Pichay Gwaal
+    \nBeech-May Mero Madan Gopal
+    \nChoti Choti Gaiya Chotay Chotay Gwaal
+    \nChotoso Mero Madan Gopal\n
+
+    \nKaari Kaari Gaiya Goray Goray Gwaal
+    \nShyam Baran Mero Madan Gopal
+    \nChoti Choti Gaiya Chotay Chotay Gwaal
+    \nChotoso Mero Madan Gopal\n
+
+    \nGhaas Khaavay Gaiya Dhudh Peevay Gwaal
+    \nMaakhan Khaavay Mero Madan Gopal
+    \nChoti Choti Gaiya Chotay Chotay Gwaal
+    \nChotoso Mero Madan Gopal\n
+
+    \nChoti Choti Lakuti Chotay Chotay Haath
+    \nBansi Bajaaway Mero Madan Gopal
+    \nChoti Choti Gaiya Chotay Chotay Gwaal
+    \nChotoso Mero Madan Gopal\n
+
+    \nChoti Choti Sakhiyaan Madhuban Baal
+    \nRaas Rachaaway Mero Madan Gopal
+    \nChoti Choti Gaiya Chotay Chotay Gwaal
+    \nChotoso Mero Madan Gopal\n
+
+    \nChoti Choti Gaiya Chotay Chotay Gwaal
+    \nChotoso Mero Madan Gopal
+    </string>
+    <string name="yashomati_bhajan">Yashomati maiya se bole nandlaala
+    \nRadha kyon gori, main kyon kaala\n
+
+    \nBoli muskaati maiya, lalan ko bataaya
+    \nKaari andhiyaari adhi raat mein tu aaya
+    \nLaadla Kanhaiya mera, kaali kamli waala
+    \nIsiliye kaala\n
+
+    \nBoli muskaati maiya, sun mere pyaare
+    \nGori gori Radhika ke nain kajraare
+    \nKaale nainon waali ne aisa jaadu daala
+    \nIsiliye kaala\n
+
+    \nItne mein Radha pyaari ayi ithhalaati
+    \nMaine na jaadu daala boli balakhaati
+    \nMaiya Kanhaiya tera jag se niraala
+    \nIsilie kaala
+    </string>
+    <string name="mera_aapki_kripa_bhajan">Mera aapki kripa se, sab kaam ho raha hai।\n
+    \nkarte ho tum kanhaiya, mera naam ho raha hai.\n
+
+    \nmera aapki kripa se…\n
+
+    \nPatvaar ke bina hi meri naav chal rahi hai,
+    \nhairaan hai zamaana manzil bhi mil rahi hai.\n
+
+    \nKarta nahin main kuch bhi sab kaam ho raha hai.\n
+
+    \nMera aapki kripa se…\n
+
+    \nTum saath ho jo mere kis cheez ki kami hai,
+    \nkisi aur cheez ki ab darkaar bhi nahi hai.\n
+
+    \nTere naam se gulaam ab gulfaam ho raha hai.\n
+
+    \nMera aapki kripa se…\n
+
+    \n Main to nahin hoon kaabil tera pyaar kaise paoon,
+    \nTooti hue vaani se gungaan kaise gaoon.\n
+
+    \nMera aapki kripa se…\n
+    </string>
+    <string name="achyutam_keshavam_bhajan">Achyutam Keshavam Krishna Damodaram
+    \nRama Naraynam Janaki Vallabham
+    \nKaun Kehta Hai Bhagvan Aate Nahi
+    \nTum Meera Ke Jaise Bulate Nahi\n
+
+    \nAchyutam Keshavam Krishna Damodaram
+    \nRama Naraynam Janakivallabham
+    \nKaun Kehta Hai Bhagvan Khaate Nahi
+    \nBer Shabri Ke Jaise Khilate Nahi\n
+
+    \nAchyutam Keshavam Krishna Damodaram
+    \nRama Naraynam Janaki Vallabham
+    \nKaun Kehta Hai Bhagvan Sote Nahi
+    \nMaa Yashoda Ke Jaise Sulate Nahin\n
+
+    \nAchyutam Keshavam Krishna Damodaram
+    \nRama Naraynam Janaki Vallabham
+    \nKaun Kehta Hai Bhagvan Nachthe Nahi
+    \nGopiyo Ki Tarah Tum Nachathae Nahi\n
+
+    \nAchyutam Keshavam Krishna Damodaram,
+    \nRama Naraynam Janaki Vallabham,
+    \nNaam Japate Chalo Kaam Karte Chalo
+    \nHar Samay Krishna Ka Dhyaan Karte Chalo\n
+
+    \nAchyutam Keshavam Krishna Damodaram,
+    \nRama Naraynam Janaki Vallabham,
+    \nYaad Aayegi Unko Kabhi Na Kabhi
+    \nKrishan Darshan To Denge Kabhi Na Kabhi\n
+
+    \nAchyutam Keshavam Krishna Damodaram
+    \nRama Naraynam Janaki Vallabham
+    </string>
+
+    <string name="aredwarpalokanhaiya_bhajan">
+        \nDekho Dekho Yeh Garibi Yeh Garibi Ka Haal,
+        \nKrishna Ke Dar Pe Biswas Leke Aaya Hoon।
+        \nMere Bachpan Ka Dost Hai Mera Shyam,
+        \nYeh Soch Kar Mein Aash Ke Kar Ke Aaya Hoon।
+        \n
+        \nAre Dwarpalo Kanhaiya Se Keh Do,
+        \nKe Dar Pe Sudama Garib Aagaya Hai।
+        \nBhatakte Bhatakte Naa Jaane Kaha Se,
+        \nTumhare Mahal Ke Karib Aagaya Hai।
+        \n
+        \nNaa Sarpe Hai Pagri Naa Tan Pe Hai Jaama,
+        \nBatado Kanhaiya Ko Naam Hai Sudama।
+        \nEk Baar Mohan Se Ja Kar Ke Kahdo,
+        \nKe Milne Sakha Badnasib Aa Gaya Hai।
+        \n
+        \nSunte Hi Doude Chale Aaye Mohan,
+        \nLagaya Gale Se Sudama Ko Mohan।
+        \nHua Ruksmani Ko Bahut Hi Achambha,
+        \nYeh Mehman Kaisa Ajeeb Ageya Hai।
+        \n
+        \nAur Barabar Pe Apne Sudama Ko Bithaye,
+        \nCharan Ansuon Se Shyam Ne Dhulaye।
+        \nNa Ghabrao Pyare Jara Tum Sudama,
+        \nKhushi Ka Shama Tere Karib Gaya Hai।
+    </string>
+
+    <string name="ek_baar_to_radha_bankar_bhajan">
+        \nJo Main Aisa Janti
+        \nPreet Kare Dukh Hoye
+        \nNagar Dhindora Peetati
+        \nPreet Kariyo Koi
+        \n
+        \nEk Baar To Radha Bankar
+        \nDekho Mere Sanwariya
+        \nRadha Yu Ro Ro Kahe
+        \n
+        \nEk Baar To Radha Bankar
+        \nDekho Mere Sanwariya
+        \nRadha Yu Ro Ro Kahe
+        \n
+        \nKya Hote Hai Aanshu
+        \nKya Peeda Hoti Hai
+        \n
+        \nKyu Dardh Uthata Hai
+        \nKyu Aankhe Roti Hai
+        \nEk Baar Aanshu To Baha Kar
+        \nDekho Sanwariya
+        \nRadha Yu Ro Ro Kahe
+        \n
+        \nEk Baar To Radha Bankar
+        \nDekho Mere Sanwariya
+        \nRadha Yu Ro Ro Kahe
+        \n
+        \nJab Koi Sunega Naa
+        \nTere Mann Ke Dukhde
+        \nJab Tane Sunkar Sunkar
+        \nHonge Dil Ke Tukade
+        \n
+        \nEk Baar Jara Tu Taane Sunkar
+        \nDekho Sanwariya
+        \nRadha Yu Ro Ro Kahe
+        \n
+        \nEk Baar To Radha Bankar
+        \nDekho Mere Sanwariya
+        \nRadha Yu Ro Ro Kahe
+        \n
+        \nKya Janoge Mohan Tum Prem Ki Bhasha
+        \nKya Hoti Hai Aasha Kya Hoti Hai Nirasha
+        \nEk Baar Jara Tum Prem Karke Dekho
+        \nSanwariya Radha Yu Ro Ro Kahe
+        \n
+        \nEk Baar To Radha Bankar
+        \nDekho Mere Sanwariya
+        \nRadha Yu Ro Ro Kahe
+        \n
+        \nPanghat Pe Madhuban Mein
+        \nVo Intzaar Karna
+        \nKahi Shyam Teri Khatir
+        \nVo Ghut Ghut Ke Marna
+        \n
+        \nEk Baar Kisi Ka Intzaar
+        \nKar Dekho Sanwariya
+        \nRadha Yu Ro Ro Kahe
+        \n
+        \nEk Baar To Radha Bankar
+        \nDekho Mere Sanwariya
+        \nRadha Yu Ro Ro Kahe
+        \nRadha Yu Ro Ro Kahe
+    </string>
+
+    <string name="gopal_muraliya_wale_bhajan">
+        \nGopal muraliya wale, Nandlaal muraliya wale
+        \nGopal muraliya wale, Nandlaal muraliya wale
+        \nGopal muraliya wale, Nandlaal muraliya wale
+        \nAe Gopal muraliya wale, Nandlaal muraliya wale
+        \nGopal muraliya wale, Nandlaal muraliya wale
+        \nShree Radha jiwan nilmani, Gopal muraliya wale,
+        \nShree Radha jiwan nilmani, Gopal muraliya wale,
+        \nShree Radha jiwan nilmani, Gopal muraliya wale,
+        \nGopal muraliya wale, Nandlaal muraliya wale
+        \nGopal muraliya wale, Nandlaal muraliya wale
+        \nGopal muraliya wale, Nandlaal muraliya wale
+        \nGopal muraliya wale, Nandlaal muraliya wale
+        \nGopal muraliya wale, Nandlaal muraliya wale
+        \nGopal muraliya wale, Nandlaal muraliya wale
+        \nShree Radha jiwan nilmani, Gopal muraliya wale,
+        \nShree Radha jiwan nilmani, Gopal muraliya wale.
+        \n
+        \nKanhaiya ko ek roj ro ke pukara, Kanhaiya ko ek roj ro ke pukara,
+        \nKaha unn se jaisa hu ab hu tumhara, Kaha unn se jaisa hu ab hu tumhara,
+        \nWo bole ki saadhan kiye tune kya kya, Wo bole ki saadhan kiye tune kya kya,
+        \nMai bola kise tumne saadhan swikara, Mai bola kise tumne saadhan swikara,
+        \nWo bole naa duniya mei aakar kiya kuchh, Wo bole naa duniya mei aakar kiya kuchh,
+        \nMai bola ki ab bhejna mat dobara, Mai bola ki ab bhejna mat dobara,
+        \nWo bole pareshan hu teri behes se, Wo bole pareshan hu teri behes se,
+        \nMai bola yeh keh do tu jita mai hara, Mai bola yeh keh do tu jita mai hara,
+        \nWo bole pareshan hu teri behes se, Mai bola yeh keh do tu jita mai hara,
+        \nWo bole ki jaria tera kya hai mujh tak, Wo bole ki jaria tera kya hai mujh tak,
+        \nMai bola ki drig bindu ka hai sahara, Mai bola ki drig bindu ka hai sahara,
+        \nKanhaiya ko ek roj ro ke pukara, Kaha unn se jaisa hu ab hu tumhara,
+        \nGopal muraliya wale, Nandlaal muraliya wale
+        \nGopal muraliya wale, Nandlaal muraliya wale
+        \nShree Radha jiwan nilmani, Gopal muraliya wale,
+        \nShree Radha jiwan nilmani, Gopal muraliya wale.
+    </string>
+
+    <string name="govind_bolo_hari_gopal_bolo_bhajan">
+        Govind Bolo Hari Gopal Bolo
+        \nRadha Ramana Hari Govind Bolo
+    </string>
+
+    <string name="kabhi_ram_banke_bhajan">
+        \nKabhi Ram Banake Kabhi Shyam Banake,
+        \nChale Aana Prabhu Ji Chale Aana॥
+        \n
+        \nTum Ram Roop Mein Aana -2,
+        \nSita Saath Leke, Dhanush Haath Leke
+        \nChale Aana Prabhu Ji Chale Aana॥
+        \n
+        \nTum Shyam Roop Mein Aana -2,
+        \nRadha Saath Leke, Murli Haath Leke,
+        \nChale Aana Prabhu Ji Chale Aana॥
+        \n
+        \n
+        \nTum Shiva Ke Roop Mein Aana -2,
+        \nGoura Saath Leke, Damaru Haath Leke
+        \nChale Aana Prabhu Ji Chale Aana॥
+        \n
+        \nTum Vishnu Roop Mein Aana -2,
+        \nLakhsmi Saath Leke, Chakra Haath Leke
+        \nChale Aana Prabhu Ji Chale Aana॥
+        \n
+        \nTum Ganapati Roop Mein Aana॥
+        \nRiddhi Saath Leke, Siddhi Saath Leke
+        \nChale Aana Prabhu Ji Chale Aana॥
+        \n
+        \nKabhi Ram Banake Kabhi Shyam Banake,
+        \nChale Aana Prabhu Ji Chale Aana॥
+    </string>
+
+    <string name="kisi_ne_mera_shyam_dekha_bhajan">
+        \nRaadha Dhund Rahi, Kisine Mera Shyaam Dekha
+        \nShyaam Dekha, Ghanshyaam Dekha
+        \nRaadha Dhund Rahi, Kisine Mera Shyaam Dekha
+        \n
+        \nRaadha Tera Shyaam Hamne Mathura Mein Dekha - (2)
+        \nBansi Bajaate Huye, Ho Raadha Tera Shyaam Dekha
+        \nRaadha Dhund Rahi, Kisine Mera Shyaam Dekha
+        \n
+        \nRaadha Tera Shyaam Hamne Gokul Mein Dekha - (2)
+        \nAre Gaiyan Charaate Huye, Ho Raadha Tera Shyaam Dekha
+        \nRaadha Dhund Rahi, Kisine Mera Shyaam Dekha
+        \n
+        \nRaadha Tera Shyaam Hamne Vrindavan Mein Dekha - (2)
+        \nRaas Rachaate Huye, Ho Raadha Tera Shyaam Dekha
+        \nRaadha Dhund Rahi, Kisine Mera Shyaam Dekha
+        \n
+        \nRaadha Tera Shyaam Hamne Jatipura Mein Dekha - (2)
+        \nAri Parbat Uthaate Huye, Ho Raadha Tera Shyaam Dekha
+        \nRaadha Dhund Rahi, Kisine Mera Shyaam Dekha
+        \n
+        \nRaadha Tera Shyaam Hamne Sarv Jagat Mein Dekha
+        \nRaadha Tera Shyaam Hamne Vaishnavjan Mein Dekha
+        \nRaadhe Raadhe Japate Huye, Ho Raadha Tera Shyaam Dekha
+        \nRaadha Dhund Rahi, Kisine Mera Shyaam Dekha
+        \n
+        \nRaadha Dhund Rahi, Kisine Mera Shyaam Dekha
+        \nShyaam Dekha, Ghanshyaam Dekha
+        \nRaadha Dhund Rahi, Kisine Mera Shyaam Dekha
+    </string>
+
+    <string name="mithe_ras_se_bharyo_bhajan">
+        \nMithe ras se bhari re radha raani laage,
+        \nMane karo karo jamunaji ro paani laage.
+        \n
+        \nJamunaji maiya kari kari radha gori gori,
+        \nVrindavan mein dhoom machavey barsaney ki chori,
+        \nVraja dhaam raadha jyoki rajdhaani laage.
+        \n
+        \nKanha nit murli mein tere sumire baaram baar,
+        \nKoti ne roop dhare manmohan tau na pavey paar,
+        \nRupa rang ki chabeli pataraani laage.
+        \n
+        \nNaa bhaave maney maakhan misari ab na koi mithai,
+        \nMaarey jivadiya ney bhavey ab to raadha naam malai,
+        \nVrishbhanu ki lali to guna dhaani laage.
+        \n
+        \nRaadhaa Raadha naam ratat hai jo nar aatho yaam,
+        \nTinki baadha door karat hai raadha raadha naam,
+        \nRaadha naam mein safal jindagani lage.
+    </string>
+
+    <string name="mohana_muralidhara_bhajan">
+        \nMohana Murlidhara Mohana Murlidhara
+        \n
+        \nKrishna Govinda Krishna Krishna,
+        \nGovind Krishna Man Mohan Mohana
+        \nKrishna Murlidhara, Mohana Murlidhara
+        \nMohana Murlidhara, Mohana Murlidhara
+        \n
+        \nKanha Gopalala, Kanha Gopalala
+        \nManmohna Mohana
+        \nKrishna Muralidhara Mohana Murlidhara
+        \nMohana Murlidhara Mohana Murlidhara
+        \n
+        \nKrishna Gopalala Krishna Gopalala
+        \nManmohna Mohana
+        \nKrishna Muralidhara Mohana Murlidhara
+        \nMohana Murlidhara Mohana Murlidhara
+        \n
+        \nKrishna Govinda Krishna Krishna,
+        \nGovind Krishna Man Mohan Mohana
+        \nKrishna Muralidhara Mohana Murlidhara
+        \nMohana Murlidhara Mohana Murlidhara
+    </string>
+
+    <string name="om_jai_jagadish_hare_bhajan">
+        \nOm Jai Jagadish Hare
+        \nSwami Jai Jagadish Hare
+        \nBhakt Jano Ke Sankat
+        \nDaas Jano Ke Sankat
+        \nKshan Men Door Kare
+        \nOm Jai Jagadish Hare
+        \n
+        \nJo Dhyaave Phal Paave
+        \nDukh Bin Se Man Kaa
+        \nSwami Dukh Bin Se Man Kaa
+        \nSukh Sampati Ghar Ave
+        \nSukh Sampati Ghar Ave
+        \nKasht Mite Tan Kaa
+        \nOm Jai Jagadish Hare
+        \n
+        \nMaat Pita Tum Mere
+        \nSharan Kahoon Kiski
+        \nSwami Sharan Kahoon Kiski
+        \nTum Bin Aur Na Dooja
+        \nTum Bin Aur Na Dooja
+        \nAas Karoon Jiski
+        \nOm Jai Jagadish Hare
+        \n
+        \nTum Pooran Paramatma
+        \nTum Antaryami
+        \nSwami Tum Antaryami
+        \nPaar Brahm Parameshwar
+        \nPaar Brahm Parameshwar
+        \nTum Sabke Swami
+        \nOm Jai Jagadish Hare
+        \n
+        \nTum Karuna Ke Saagar
+        \nTum Paalan Karta
+        \nSwami Tum Paalan Karta
+        \nMain Moorakh Khalakhami
+        \nMain Sevak Tum Swami
+        \nKripa Karo Bharta
+        \nOm Jai Jagadish Hare
+        \n
+        \nTum Ho Ek Agochar
+        \nSab Ke Praan Pati
+        \nSwami Sab Ke Praan Pati
+        \nKis Vidhi Miloon Dayamaya
+        \nKis Vidhi Miloon Dayamaya
+        \nTum Ko Main Kumati
+        \nOm Jai Jagdish Hare
+        \n
+        \nDeen Bandhu Dukh Harta
+        \nThaakur Tum Mere
+        \nSwaami Rakhshak Tum Mere
+        \nApne Haath Uthao
+        \nApni Sharan Lagao
+        \nDwaar Padha Tere
+        \nOm Jai Jagadish Hare
+        \n
+        \nVishay Vikaar Mitaao
+        \nPaap Haro Deva
+        \nSwami Paap Haro Deva
+        \nShradha Bhakti Badhao
+        \nShradha Bhakti Badhao
+        \nSantan Ki Seva
+        \nOm Jai Jagadish Hare
+        \n
+        \nOm Jai Jagadish Hare
+        \nSwami Jai Jagadish Hare
+        \nBhakt Jano Ke Sankat
+        \nDaas Jano Ke Sankat
+        \nKshan Men Door Kare
+        \nOm Jai Jagadish Hare
+    </string>
+
+    <string name="radhe_radhe_japa_karo_bhajan">
+        \nRadhe Radhe japa karo,
+        \nKrishna naam ras piya karo
+        \n
+        \nRadhe Radhe japa karo,
+        \nKrishna naam ras piya karo
+        \n
+        \nRaadhe degi tumako shakti,
+        \nMilegi tumako Krishna ki bhakti
+        \nRaadhe kripa drshti barasaaya karo,
+        \nRaadhe raadhe japa karo
+        \n
+        \nRadhe Radhe japa karo,
+        \nKrishna naam ras piya karo
+        \n
+        \nRaadha raani hai mahaaraani,
+        \nMahima unaki sab jag jaani
+        \nRaadha charanon mein priti kiya karo,
+        \nRaadhe raadhe japa karo
+        \n
+        \nRadhe Radhe japa karo,
+        \nKrishna naam ras piya karo
+        \n
+        \nBholi bhaali sidhi saadi,
+        \nVo hai sabase nyaari nyaari
+        \nRaadha charanon mein shish jhukaya karo,
+        \nRaadhe raadhe japa karo
+        \n
+        \nRadhe Radhe japa karo,
+        \nKrishna naam ras piya karo
+        \n
+        \nRaadha ju mai sharan tihaari,
+        \nTumhaari krpa se mile bihaari
+        \nRaadhe, raadhe sharan mein jaaya karo,
+        \nRaadhe raadhe japa karo
+        \n
+        \nRadhe Radhe japa karo,
+        \nKrishna naam ras piya karo
+        \n
+        \nBrij mandal mein goonj hai Raadhe
+        \nKrishna ki vo hai praan aaraadhe
+        \nAisi yugal chhavi pe bali jaaya karo,
+        \nRaadhe raadhe japa karo
+        \n
+        \nRadhe Radhe japa karo,
+        \nKrishna naam ras piya karo
+        \n
+        \nRadhe Radhe japa karo,
+        \nKrishna naam ras piya karo
+    </string>
+
+    <string name="shri_krishna_govind_hare_murari_bhajan">
+        \nShri krishna govind hare murari
+        \nHey nath narayan vasudeva
+        \nEk maat swami sakha hamare
+        \nHey nath narayan vasudeva
+        \nShri krishna govind hare murari…
+        \n
+        \nBandi grah ke tum avtaari
+        \nKahi janme kahi pale murari
+        \nKisi ke jaaye kisi ke kahaye
+        \nHai adbhut har baat tihari
+        \nGokul mein chamke mathura ke tare
+        \nHey nath narayan vasudeva
+        \nShri krishna govind hare murari…
+        \n
+        \nAdhar mein banshi hriday mein radhe
+        \nBat gaye dono mein aadhe aadhe
+        \nHey radha nagar hey bhakt vatsal
+        \nSadaiv bhakto ke kaam sadhe
+        \nVahin gaye vahin gaye jaha gaye pukare
+        \nHey nath narayan vasudeva
+        \nShri krishna govind hare murari…
+        \n
+        \nGita mein updesh sunaya
+        \nDharm yudh ko dharm bataya
+        \nKarm tu kar
+        \nMat rakh fal ki ichcha
+        \nYeh sandesh tumhi se paya
+        \nAmar hai gita ke bal sare
+        \nHey nath narayan vasudeva
+        \nShri krishna govind hare murari…
+        \n
+        \nTvamev mata cha pita tvamev
+        \nTvamev bandhu cha sakha tvamev
+        \nTvamev vidya draveram tvamev
+        \nTvamev sarvam mam dev deva
+        \nHey nath narayan vasudeva
+        \nShri krishna govind hare murari…
+        \n
+        \nRadhe Krishna Radhe Krishna Radhe Radhe Krishna Krishna
+        \nRadhe Krishna Radhe Krishna Radhe Radhe Krishna Krishna
+        \n
+        \nHari Bol, Hari Bol, Hari Bol, Hari Bol
+        \n
+        \nRadhe Krishna Radhe Krishna Radhe Radhe Krishna Krishna
+        \nRadhe Krishna Radhe Krishna Radhe Radhe Krishna Krishna
+    </string>
+
+    <string name="shyam_teri_bansi_pukare_radha_naam_bhajan">
+        \nShyam Teri Bansi Pukare Radha Naam
+        \nLog Karen Meera Ko Yunhi Badnam
+        \n
+        \nSanware Ki Bansi Ko Bajne Se Kaam
+        \nRadha Ka Bhi Shyam Voh To Meera Ka Bhi Shyam
+        \n
+        \nJamuna Ki Lehren Bansibat Ki Chhaiyaan
+        \nKiska Nahin Hai Kaho Krishan Kanhaiya
+        \nShyam Ka Deewana To Saara Brij Dhaam
+        \n॥ Log Karen Meera Ko…॥
+        \n
+        \nKaun Jaane Bansuriya Kisko Bulaye
+        \nJiske Man Bhaye Wo Usi Ke Gun Gaye
+        \nKaun Nahin Bansi Ki Dhun Ka Gulaam
+        \n
+        \nShyam Teri Bansi Pukare Radha Naam
+        \nLog Karen Meera Ko Yunhi Badnam
+    </string>
+
+    <string name="shyama_aan_baso_vrindavan_bhajan">
+        \nShyaama Aan Bason Vrndaavan Mein,
+        \nMeri Umr Beet Gayee Gokul Mein ।
+        \n
+        \nShyaama Raste Mein Baag Bana Jaana,
+        \nPhul beenugee teree maala ke lie .
+        \nTeree baat nihaaroon kunjan mein,
+        \nMeree umr beet gayee gokul mein .
+        \n
+        \nShyaama raste mein kua khudava jaana,
+        \nMain to neer bharungee tere lie .
+        \nMain tujhe nahaalaungee mal mal ke,
+        \nMeree umr beet gayee gokul mein .
+        \n
+        \nShyaama muralee madhur suna jaana,
+        \nMohe aake darash dikha jaana .
+        \nTeree soorat basee hai ankhiyan mein,
+        \nMeree umr beet gayee gokul mein .
+        \n
+        \nShyaama vrndaavan mein aa jaana,
+        \nAakar ke raas racha jaana .
+        \nSooni gokul kee galiyan mein,
+        \nMeri umr beet gayee gokul mein .
+        \n
+        \nShyaama maakhan churaane aa jaana,
+        \nAakar ke dahee bikhara jaana .
+        \nBas aap raho mere man mein,
+        \nMeree umr beet gayee gokul mein ॥
+    </string>
+
+    <string name="barsane_wali_radhe_bhajan">
+        \nShri radhe radhe radhe barsane wali radhe - 20
+        \n
+        \nJai radhe radhe jai radhe radhe
+        \nBrijbhan dulari radhe radhe
+        \nBhakton ki pyari radhe radhe
+        \nHo shyama pyari radhe radhe
+        \nHaridas dulari radhe radhe
+        \nRaskon ki pyari radhe radhe
+        \nHamari pyari radhe radhe
+        \nTumhari pyari radhe radhe
+        \nHam sabki pyari radhe radhe
+        \nHo pyari pyari radhe radhe
+        \nHo pyari pyari radhe radhe
+        \n
+        \nJai radhe radhe - 4
+        \n
+        \nAaiye shridham brindavan me pravesh karein
+        \n
+        \nBrindavan mein radhe radhe
+        \nSunrak gaon mein radhe radhe
+        \nKalideh per radhe radhe
+        \nAdyedapat mein radhe radhe
+        \nTaan gali mein radhe radhe
+        \nMaan gali mein radhe radhe
+        \nO\'man gali mein radhe radhe
+        \nGokunj gali mein radhe radhe
+        \nSiva kunj mein radhe radhe
+        \nPrem gali mein radhe radhe
+        \nShringar bat mein radhe radhe
+        \nCheer ghat mein radhe radhe
+        \n
+        \nKishi ghat peradhe radhe
+        \nAjiwdeep mein radhe radhe
+        \nBansi bat mein radhe radhe
+        \nGyan gubadi radhe radhe
+        \n
+        \nShri radhe radhe radhe barsane wali radhe - 4
+        \n
+        \nBramha kund mein radhe radhe
+        \nIshwar mahadev radhe radhe
+        \nShri bake bihari radhe radhe
+        \nShanidev bihari radhe radhe
+        \nMadan mohan ji radhe radhe
+        \nGopinathji radhe radhe
+        \nRamadamodar radhe radhe
+        \nRadha vinod ji radhe radhe
+        \nShakshi gopalji radhe radhe
+        \nRadha madhaw ji radhe radhe
+        \nShri radha ballabhji radhe radhe
+        \nShri yugal kishorji radhe radhe
+        \nShri radha raman ji radhe radhe
+        \nasht sakhiji radhe radhe
+        \nAtal ban mein radhe radhe
+        \nBihar ban mein radhe radhe
+        \nGau charan ban mein radhe radhe
+        \nGopal ban mein radhe radhe
+        \n
+        \nBrindavan ka kan kan bole shri radha radha
+        \nShri yamunaji ki lahren bole shri radha radha
+        \nShri radha radha shri radha radha - 3
+        \nShyam sundar ki banshi bole shri radha radha
+        \nShri radha radha - 2
+        \nBraj ki lata vata bhi bole shri radha radha
+        \nShri radha radha - 2
+        \nBhumi tatva jal tatva agni tatwa wayu tatwa
+        \nBranha tatwa wyom tatwa vishnu tatwa ghori hai
+        \nSankansiddhi tatwa anand prashiddhi tatwa
+        \nNarad suresh tatwa shiv tatwa ghori hai - 3
+        \n
+        \nPremi kahe nag aur kinnar ko tatwa dekhyo
+        \nShedh aur mahesh tatwa milti milti jodi hai
+        \nTatwan ke tatwa jagjeewan shri krishnachandra
+        \nAur krish kohu tatwa brijbhan ki kishori hai - 3
+        \nAur krish kohu tatwa meri radhika kishori hai
+        \n
+        \nShri brindavan bihari lal ki jai
+        \nShri shani bihari lal ki jai
+        \nShri radha rani ki jai
+        \n
+        \nShri radhe radhe radhe barsane wali radhe - 4
+    </string>
+
+    <string name="aisi_lagi_lagan_bhajan">
+        \nHai Ankh Woh
+        \nHai Ankh Woh Jo Shyam Ka Darshan Kiya Kare
+        \nHai Shish Jo Prabhu Charan Me Vandan Kiya Kare
+        \nBekaar Woh Mukh Hai
+        \nBekaar Woh Mukh Hai Jo Rahe Vyarth Baton Me
+        \nBekaar Woh Mukh Hai Jo rahe Vyarth Bathon me
+        \nMukh Woh hai Jo Hari Naam Ka Sumiran Kiya Kare
+        \n
+        \nHeere Moti Se Nahi Shobha Hai Hath Ki
+        \nHai Hath Jo Bhagavan Ka Poojan Kiya Kare
+        \nMar Kar Bhi Amar Naam Hai Us Jeev ka Jag Me
+        \nPrabhu Prem Me Balidan Jo Jeevan Kiya Kare
+        \n
+        \nAisi Lagi Lagan, Aisi Lagi Lagan
+        \nAisi Lagi Lagan Lagi Lagi Re Lagan, Lagi Lagi Re Lagan
+        \n
+        \nAisi Lagi Lagan Meera Hogayi Magan
+        \nAisi Lagi Lagan Meera Hogayi Magan
+        \nWoh to Gali Gali Hari gun Gane Lagi
+        \n
+        \nAisi Lagi Lagan Meera Hogayi Magan
+        \nAisi Lagi Lagan Meera Hogayi Magan
+        \nWoh to Gali Gali Gari Gun Gane Lagi
+        \n
+        \nMahalo Me Pali Banake Jogan Chali
+        \nMahalo Me Pali Banake Jogan Chali
+        \nMira Rani Diwani Kahane Lagi
+        \n
+        \nAisi Lagi Lagan Meera Hogayi Magan
+        \nWoh to Gali Gali Gali Gali Hari Gun Gane Lagi
+        \nAisi Lagi Lagan Meera Hogayi Magan
+        \n
+        \nKoi Roke Nahin Koi Toke Nahin
+        \nMeera Govinda Gopal Gane Lagi
+        \nKoi Roke Nahin Koi Toke Nahin
+        \nMeera Govinda Gopal Gane Lagi
+        \nBaithe santon Ke Sang Range Mohan Ke Rang
+        \nMeera Premi Preetam Ko Manane Lagi
+        \nWoh to Gali Gali Hari Gun Gane Lagi
+        \n
+        \nAisi Lagi Lagan Meera Hogayi Magan
+        \nWoh to Gali Gali Gali Gali Hari Gun Gane Lagi
+        \nMahalo me Pali Banake Jogan Chali
+        \nMira Rani Diwani Kahane Lagi
+        \nAisi Lagi Lagan
+        \n
+        \nRana Ne Vish Diya Mano Amrit Piya
+        \nRana Ne Vish Diya Mano Amrit piya
+        \n
+        \nRana Ne Vish Diya Mano Amrit Miya, Meera Sagar Me Sarita Samane lagi
+        \nDukh lakho sahe Muh se Govinda Kahe, Meera Govind Gopala Gane lagi
+        \nWoh to Gali Gali Hari Gun Gane Lagi
+        \nAisi Lagi Lagan Mira Hogayi Magan
+        \nWoh to Gali Gali Hari Gun Gane lagi
+        \nMahalo me Pali Banake Jogan Chali
+        \nMeera Rani Diwani Kahane Lagi
+        \n
+        \nAisi Lagi Lagan Meera Hogayi Magan
+        \nAisi Lagi Lagan Meera Hogayi Magan
+        \nAisi Lagi Lagan Meera Hogayi Magan
+    </string>
+
+    <string name="o_palanhaare_bhajan">
+        \nO Paalanhaare, Nirgun Aur Nyaare
+        \nO Paalanhaare, Nirgun Aur Nyaare
+        \nTumre Bin Hamra Kaunon Naahin
+        \nHumri Uljhan Suljhaao Bhagwan
+        \nTumre Bin Hamra Kaunon Naahin
+        \nTumhe Humka Ho Sambhaale
+        \nTumhe Hamre Rakhwaale
+        \nTumre Bin Hamra Kaunon Naahin
+        \n
+        \nTumre Bin Hamra Kaunon Naahin
+        \nTumre Bin Hamra Kaunon Naahin
+        \n
+        \nChanda Mein Tumhe To Bhare Ho Chaandni
+        \nSooraj Mein Ujaala Tumhe Se
+        \nYeh Gagan Hai Magan, Tumhe To Diye Ho Isse Taare
+        \nBhagwan, Yeh Jeevan Tumhe Na Sanwaaroge
+        \nTo Kya Koi Sanwaare
+        \nO Paalanhaare, Nirgun Aur Nyaare
+        \nTumre Bin Hamra Kaunon Naahin
+        \nTumre Bin Hamra Kaunon Naahin
+        \nJo Suno To Kahe Prabhuji Hamri Hai Binti
+        \nDukhi Jan Ko Dheeraj Do
+        \nHaare Nahin Voh Kabhi Dukh Se
+        \nTum Nirbal Ko Raksha Do
+        \nReh Paaye Nirbal Sukh Se
+        \nBhakti Ko Shakti Do
+        \n
+        \nBhakti Ko Shakti Do
+        \n
+        \nJag Ke Jo Swami Ho, Itni To Araj Suno
+        \nHai Path Mein Andhiyaare
+        \nDedo Vardaan Mein Ujiyaare
+        \n
+        \nO Paalanhaare, Nirgun Aur Nyaare
+        \nTumre Bin Hamra Kaunon Naahin
+        \nHumri Uljhan Suljhaao Bhagwan
+        \nTumre Bin Hamra Kaunon Naahin
+        \nO Paalanhaare, Nirgun Aur Nyaare
+        \nTumre Bin Hamra Kaunon Naahin
+        \nHumri Uljhan Suljhaao Bhagwan
+        \nTumre Bin Hamra Kaunon Naahin
+        \nO Paalanhaare, Nirgun Aur Nyaare
+        \nTumre Bin Hamra Kaunon Naahin
+        \nHumri Uljhan Suljhaao Bhagwan
+        \nTumre Bin Hamra Kaunon Naahin.
+    </string>
+
+    <string name="achyutashtakam_bhajan">
+        \nAchyutham Kesavam Rama Narayanam,
+        \nKrishna damodharam vasudevam harim,
+        \nSreedharam madhavam gopika vallabham,
+        \nJanaki nayakam ramachandram Bhaje 1
+        \n
+        \nAchyutham kesavam sathya bhamadhavam,
+        \nMadhavam sreedharam radhika aradhitham,
+        \nIndira mandiram chethana sundaram,
+        \nDevaki nandanam nandhajam sam bhaje 2
+        \n
+        \nVishnava jishnave sankhine chakrine,
+        \nRukhmani ragine janaki janaye,
+        \nVallavi vallabha yarchidha yathmane,
+        \nKamsa vidhvamsine vamsine the nama. 3
+        \n
+        \nKrishna govinda he rama narayana,
+        \nSree pathe vasu deva jitha sree nidhe,
+        \nAchyuthanantha he madhava adhokshaja,
+        \nDrowpadhi rakshaka, pathu maam sarvadha (also Dwaraka Nayaka, drowpadhi rakshaka) 4
+        \n
+        \nRakshasa kshobitha seethaya shobitho,
+        \nDanda karanya bhoo punyatha karana,
+        \nLakshmanananvitho vanarai ssevitho,
+        \nAgasthya sampoojitho raghava pathu maam. 5
+        \n
+        \nDheenu karishtako anishta krudwesinaam,
+        \nKesiha kamsa hrud vamsika vaadhana,
+        \nPoothana nasana sooraja khelano,
+        \nBala gopalaka pathu maam sarvadha 6
+        \n
+        \nVidhyu dudhyothavath prasphura dwasasam,
+        \nProuda bodhaval prollasad vigraham,
+        \nVanyaya Malaya shobhi thora sthalam,
+        \nLohinthangri dwayam vareejaksham bhaje. 7
+        \n
+        \nKanchithai kundalai braja maanananam,
+        \nRathna moulim lasad kundalam gandayo,
+        \nHaara keyuragam kankana projwalam,
+        \nKinkini manjula syamalam tham bhaje. 8
+        \n
+        \nPhalasruthi
+        \n
+        \nAchyuthashtakam ya patdeth ishtadham,
+        \nPremadha prathyaham poorusha saspruham,
+        \nVruthatha sundaram karthru viswambharam,
+        \nTasya vasyo harir jayathe sathwaram
+    </string>
+
+    <string name="shri_hari_stotram_bhajan">
+        \nJagajjalapalam kachad kanda malam,
+        \nSarahandraphalam mahadaithyakalam,
+        \nNabho neelakayam duravaramayam,
+        \nSupadmasahayam Bajeham Bajeham. 1
+        \nSadambhodhi vasam galathpushpahasam,
+        \nJagatsannivasam sathadhithyabhasam,
+        \nGadhachakra sastram lasad peetha vasthram,
+        \nHasacharu vakthram Bajeham Bajeham. 2
+        \n
+        \nRamakantaharam sruthivrathasaram,
+        \nJalantharviharam dharabharaharam,
+        \nChidanandaroopam manogna swaroopam,
+        \nDruthaneka roopam Bajeham Bajeham. 3
+        \n
+        \nJarajanma Heenam parananda peetham,
+        \nSamadana leenam sadaivanaveetham,
+        \nJagajjanma hethum suraneeka kethum,
+        \nTrilokaika sethum Bajeham Bajeham. 4
+        \n
+        \nKruthamnayaganam khagadhisayanam,
+        \nVimukthernidhanam hararadhimanam,
+        \nSwabakthanukoolam jagadvrukshamoolam,
+        \nNirastharthasoolam Bajeham Bajeham. 5
+        \n
+        \nSamasthamaresam dwirephabha klesam,
+        \nJagat bimba lesam hrudakasa desam,
+        \nSada divya deham vimukthakhileham,
+        \nSuvaikuntageham Bajeham Bajeham. 6
+        \n
+        \nSuralibalishtam Trilokivarishtam,
+        \nGurannangarishtam swaroopaikanishtam,
+        \nSadyudhadheeram mahaveeraveeram,
+        \nBhambhoditheeram Bajeham Bajeham. 7
+        \n
+        \nRamavamabhagam thalanagna nagam,
+        \nKruthadeethayagam gatharagaragam,
+        \nMuneendrai sugeetham surai sapareeham,
+        \nGanougairaathetham Bajeham Bajeham. 8
+    </string>
+    
+    <string name="vishnu_shatanama_bhajan">
+        \nVasudevam, Hrishi kesam, vamanam, jalasayinam ।
+        \nJanardhanam, Harim, Krishnam, Sreepaksham, Garuda dwajam ॥
+        \nVaraham. Pundareekaksham,Nrusimham, narakanthakam ।
+        \nAvyaktham, Saswatham, Vishnum, anantham, avyayam ॥
+        \nNarayanam, Gadadhyaksham, Govindam, Keerthi bhajanam ।
+        \nGovardhanodharam, devam, bhoodharam, Bhuvaneswaram ॥
+        \nVethaaram, yagna purusham, yagnesam, Yagna vahakam ।
+        \nChakrapanim, Gadhapanim, Sankhapanim, Narothamam ॥
+        \nVaikuntam, Dushta dhamanam,, Bhoogarbham, Peetha vasasam ।
+        \nTrivikramam, Trikalagnam,Trimurthim, Nandakeswaram ॥
+        \nRamam, ramam Hayagreevam, Bheemam, Roudhram,Bhavothbhavam ।
+        \nSripathim, Sridharam, Sreesam, Mangalam, Mangalayudham ॥
+        \nDhamodharam, Dhamopetham, Kesavam, Kesi Soodhanam ।
+        \nVarenyam, Varadam, Vishnumanandam, Vasudevajam ॥
+        \nHiranyarethasam, Deeptham, Puranam, Purushothamam ।
+        \nSakalam, Nishkalam, Shuddham, Nirgunam, Guna Saswatham ॥
+        \nHiranya thanu sankasam, Suryayaytha sama prabham ।
+        \nMegha shyamam,Chathur bahum, kusalam, Kamalekshanam ॥
+        \nJyothiroopam, aroopancha, swaroopam, roopa samsthitham ।
+        \nSarvagnam, Sarva roopstham, Sarvesam, Sarvathomukham ॥
+        \nJnanam kootastham, achalam Jnanadham,Paramam, Prabhum ।
+        \nYogesam, Yoga nishnaatham, yoginam, yoga roopinam ॥
+        \nIswaram sarva bhoothaanaam, Vande bhootha mayam Prabhum ।
+        \nIthi nama satham divyam Vaishnavam Khalu papakam ॥
+        \nVyasena khaditham poorvam Sarva papa prnasanam ।
+        \nYa padeth prathar uthaya, sa Bhaved Vaishnavo nara ॥
+        \nSarva papa visudhathma, Vishnu sayujam aapnuyath ।
+        \nChandrayana Sahasrani, Kanya dhana sathani cha ॥
+        \nGavaam Laksha sahasraani, Mukthi bhagi bhaven nara ।
+        \nAswamedhayutham punyam, phalam prapnothi manava॥
+    </string>
+
+    <string name="jai_radha_madhav_bhajan">
+        \nJai radha madhav jai kunj bihari
+        \nJai radha madhav jai kunj bihari
+        \nJai radha madhav jai kunj bihari
+        \n
+        \nJai radha madhav jai kunj bihari
+        \nJai radha madhav jai kunj bihari
+        \nJai radha madhav jai kunj bihari
+        \n
+        \nJai gopi jan wallabh
+        \nJai gopi jan wallabh
+        \nJai gopi jan wallabh
+        \nJai gopi jan wallabh
+        \nJai gopi jan wallabh jai giridhar hari
+        \nJai radha madhav jai kunj bihari
+        \nJai radha madhav jai kunj bihari
+        \n
+        \nYashoda nandan braj jan ranjan
+        \nYashoda nandan braj jan ranjan
+        \nYashoda nandan braj jan ranjan
+        \nYashoda nandan braj jan ranjan
+        \nYashoda nandan braj jan ranjan
+        \n
+        \nYashoda nandan braj jan ranjan
+        \nYashoda nandan braj jan ranjan
+        \nYashoda nandan braj jan ranjan
+        \nYashoda nandan braj jan ranjan
+        \nYashoda nandan braj jan ranjan
+        \nJamuna teer ban chari
+        \nJai radha madhav jai kunj bihari
+        \nJai radha madhav jai kunj bihari
+        \n
+        \nJai gopi jan wallabh
+        \nJai gopi jan wallabh
+        \nJai gopi jan wallabh
+        \nJai gopi jan wallabh
+        \nJai gopi jan wallabh jai giridhar hari
+        \nJai radha madhav jai kunj bihari
+        \nJai radha madhav jai kunj bihari
+        \n
+        \nHare krishna hare krishna
+        \nKrishna krishna hare hare
+        \nHare krishna hare krishna
+        \nKrishna krishna hare hare
+        \nHare krishna hare krishna
+        \nKrishna krishna hare hare
+        \nHare krishna hare krishna
+        \nKrishna krishna hare hare
+        \n
+        \nHare rama hare rama
+        \nRama rama hare hare
+        \nHare rama hare rama
+        \nRama rama hare hare
+        \nHare krishna hare krishna
+        \nKrishna krishna hare hare
+        \nHare krishna hare krishna
+        \nKrishna krishna hare hare
+        \n
+        \nHare rama hare rama
+        \nRama rama hare hare
+        \nHare rama hare rama
+        \nRama rama hare hare
+        \nHare krishna hare krishna
+        \nKrishna krishna hare hare
+        \nHare rama hare rama
+        \nRama rama hare hare
+        \nHare krishna hare krishna
+        \nKrishna krishna hare hare
+        \n
+        \nHare rama hare rama
+        \nRama rama hare hare
+        \nHare krishna hare krishna
+        \nKrishna krishna hare hare
+        \n
+        \nHare rama hare rama
+        \nRama rama hare hare
+        \nHare krishna hare krishna
+        \nKrishna krishna hare hare.
+    </string>
+    
+    <string name="radhe_radhe_govind_bhajan">
+        Lyrics not available.
+    </string>
+
+    <string name="radhe_krishna_radhe_shyam_bhajan">
+        \nRadhe Krishna Radhe Krishna
+        \nKrishna Krishna Radhe Radhe
+        \nRadhe Krishna Radhe Krishna
+        \nKrishna Krishna Radhe Radhe
+        \n
+        \nRadhe Shyam Radhe Shyam
+        \nShyam Shyam Radhe Radhe
+        \nRadhe Shyam Radhe Shyam
+        \nShyam Shyam Radhe Radhe
+        \n
+        \nRadhe Shyam Radhe Shyam
+        \nShyam Shyam Radhe Radhe
+        \nRadhe Shyam Radhe Shyam
+        \nShyam Shyam Radhe Radhe
+        \n
+        \nRadhe Krishna Radhe Krishna
+        \nKrishna Krishna Radhe Radhe
+        \nRadhe Krishna Radhe Krishna
+        \nKrishna Krishna Radhe Radhe
+        \n
+        \nRadhe Shyam Radhe Shyam
+        \nShyam Shyam Radhe Radhe
+        \nRadhe Shyam Radhe Shyam
+        \nShyam Shyam Radhe Radhe
+        \n
+        \nRadhe Krishna Radhe Krishna
+        \nKrishna Krishna Radhe Radhe
+        \nRadhe Krishna Radhe Krishna
+        \nKrishna Krishna Radhe Radhe
+        \n
+        \nRadhe Shyam Radhe Shyam
+        \nShyam Shyam Radhe Radhe
+        \nRadhe Shyam Radhe Shyam
+        \nShyam Shyam Radhe Radhe
+        \n
+        \nRadhe Krishna Radhe Krishna
+        \nKrishna Krishna Radhe Radhe
+        \nRadhe Krishna Radhe Krishna
+        \nKrishna Krishna Radhe Radhe
+        \n
+        \nRadhe Shyam Radhe Shyam
+        \nShyam Shyam Radhe Radhe
+        \nRadhe Shyam Radhe Shyam
+        \nShyam Shyam Radhe Radhe
+        \n
+        \nRadhe Krishna Radhe Krishna
+        \nKrishna Krishna Radhe Radhe
+        \nRadhe Krishna Radhe Krishna
+        \nKrishna Krishna Radhe Radhe
+        \n
+        \nRadhe Shyam Radhe Shyam
+        \nShyam Shyam Radhe Radhe
+        \nRadhe Shyam Radhe Shyam
+        \nShyam Shyam Radhe Radhe
+    </string>
+
+    <string name="kishori_kuch_aisa_intzam_ho_krishna_bhajan">
+        \nKishori kuch aisa intjam ho jaye.
+        \njubaan pe raadha, raadha raadha naam ho jae.
+        \n
+        \nJab girate hue mainne
+        \ntera naam liya hai.
+        \nTo girane na diya toone,
+        \nmujhe thaam liya hai.
+        \n
+        \nKishori kuch aisa intjam ho jaye.
+        \nJuba pe Radha, Radha Radha naam ho jaye.
+        \n
+        \nTum apane bhakto pe
+        \nkrpa karati ho, Shri Radhe.
+        \nUnako apane charanon mein
+        \njagah deti ho, Shri Radhe.
+        \n
+        \n(Maangane vaale khaali na laute,
+        \nkitani mili khairaat na poochho.
+        \nunaki krpa to unaki kripa hai,
+        \nunaki kripa ki baat na poochho.)
+        \n
+        \nTum apane bhakto pe
+        \nkrpa karati ho, Shri Radhe.
+        \nUnako apane charanon mein
+        \njagah deti ho, Shri Radhe ।
+        \ntumhaare charanon mein
+        \nmera mukaam ho jae.
+        \n
+        \nShri Radhe, Shri Radhe Radhe, Shri Radhe
+        \nShri Radhe, Shri Radhe Radhe, Shri Radhe
+        \n
+        \nBraj ki raj mein lot kar,
+        \nYamuna jal kar paan.
+        \nShri Radha Radha ratate,
+        \nya tan so nikale praan.
+        \n
+        \nKishori kuch aisa intjam ho jaye.
+        \nJuba pe Radha, Radha Radha naam ho jaye.
+        \n
+        \nGar tum na karogi,
+        \nto krpa kaun karega.
+        \nGar tum na sunogi,
+        \nto meri kaun sunega.
+        \n
+        \nKishori kuch aisa intjam ho jaye.
+        \nJuba pe Radha, Radha Radha naam ho jaye.
+        \n
+        \ndolat phirat mukh bolat main Radhe Radhe,
+        \naur jag jaalan ke khyaalan se hat re.
+        \njaagat, sovat, pag jovat mein Radhe Radhe,
+        \nrat Radhe Radhe, tyaag urate kapat re.
+        \n
+        \nLaal balabir dhar dhir rat Radhe Radhe,
+        \nHare koti baadhe rat Radhe jhatapat re.
+        \nAi re man mere too chhod ke jhamele sab,
+        \nrat Radhe, rat Radhe, Radhe Radhe rat re.
+        \n
+        \nShri Radhe, Shri Radhe Radhe, Shri Radhe
+        \nShri Radhey, Shri Radhey Radhey, Shri Radhey
+        \n
+        \nShri Radhe itani krpa
+        \ntumhaari hum pe ho jaye.
+        \nKisi ka naam loon
+        \njubaa pe tumhaara naam aaye.
+        \n
+        \nKishori kuch aisa intjam ho jaye.
+        \nJuba pe Radha, Radha Radha naam ho jaye.
+        \n
+        \nWoh din bhi aaye
+        \ntere vrndaavan mein aayen ham,
+        \ntumhaare charanon mein
+        \napane sar ko jhukaen ham.
+        \nbraj galion mein jhoome naache gaaye hum.
+        \nMeri saari umr vrndaavan mein tamaam ho jaye.
+        \n
+        \nKishori kuch aisa intjam ho jaye.
+        \nJuba pe Radha, Radha Radha naam ho jaye.
+        \n
+        \nArmaan mere dil ka mita kyu nahi deti,
+        \nSarkar Vrindavan mein bula kyoon nahin leti.
+        \nDeedaar bhi hota rahe har waqt baar baar,
+        \nCharano mein hamako apane bitha kyoon nahin leti.
+        \n
+        \nKishori kuch aisa intjam ho jaye.
+        \nJuba pe Radha, Radha Radha naam ho jaye.
+        \n
+        \nShri Vridaavan vaas mile,
+        \nab yahi hamaari aasha hai.
+        \nyamuna tat chhaav kunjan ki
+        \njahaan rasikon ka vaasa hai.
+        \n
+        \nSeva kunj manohar nidhi van,
+        \njahaan ik ras baarahon maasa hai.
+        \nlalit kishori ab ye dil bas,
+        \nus yugal roop ka pyaasa hai.
+        \n
+        \nKishori kuch aisa intjam ho jaye.
+        \nJuba pe Radha, Radha Radha naam ho jaye.
+        \n
+        \nMain to aai Vrindaavan dhaam
+        \nkishori tere charanan mein.
+        \nKishori tere charanan mein,
+        \nShri Radhe tere charanan mein.
+        \n
+        \nBraj Vrindaavan ki Maharani,
+        \nmukti bhi jahaan bharati paani.
+        \nTere charan pade charo dhaam,
+        \nkishori tere charanan mein.
+        \nShri Radhe tere charanan mein
+        \n
+        \nkaro krpa ki kor Shri Radhe,
+        \ndin janan ki or Shri Radhe.
+        \nmeri vinati hai aatho yaam,
+        \nkishori tere charanan mein.
+        \nShri Radhe tere charanan mein
+        \n
+        \nBaanke thaakur ki thakuraani,
+        \nvrndaavan jin ki rajadhaani.
+        \nTere charan dabaavat shyaam,
+        \nkishori tere charanan mein.
+        \nShri Radhe tere charanan mein
+        \n
+        \nMujhe bana lo apani daasi,
+        \nchaahat nit hi mahal khavaasi.
+        \nMujhe aur na jag se kaam,
+        \nkishori tere charanan mein.
+        \nShri Radhe tere charanan mein
+        \n
+        \nKishori kuch aisa intjam ho jaye.
+        \nJuba pe Radha, Radha Radha naam ho jaye.
+        \n
+        \nKishori is se badh kar
+        \naarajoo-e-dil nahin koi.
+        \ntumhaara naam hai bas
+        \ndoosara saahil nahin koi.
+        \ntumhaari yaad mein meri
+        \nsubaho shyaam ho jae.
+        \n
+        \nKishori kuch aisa intjam ho jaye.
+        \nJuba pe Radha, Radha Radha naam ho jaye.
+        \n
+        \nYah to bata do barasaane vaali
+        \nmain kaise tumhaari lagan chhod doonga.
+        \nTeri daya par yah jivan hai mera,
+        \nmain kaise tumhaari sharan chhod doonga.
+        \n
+        \nNa poochho kiye mainne, aparaadh kya kya,
+        \nkahi yah zamin aasamaan hil na jaaye.
+        \nJab tak shri Radha raani kshama na karogi,
+        \nmain kaise tumhaare charan chhod doonga.
+        \n
+        \nBahut thokare kha chooka zindagi mein,
+        \ntamanna tumhaare didaar ki hai.
+        \nJab tak shri Radha rani darshan na dogi,
+        \nmain kaise tumhaara bhajan chhod doonga.
+        \n
+        \nTaaro na taaro marji tumhaari,
+        \nlekin meri aakhari baat sun lo.
+        \nMujh ko shri raadha raani jo dar se hataaya,
+        \ntumhaare hi dar pe main dam tod doonga.
+        \n
+        \nKishori kuch aisa intjam ho jaye.
+        \nJuba pe Radha, Radha Radha naam ho jaye.
+        \n
+        \nMarana ho to main maroo,
+        \nShri Radhe ke dvaar,
+        \nkabhi to laadali poochhegi,
+        \nyah kaun padyo darabaar.
+        \n
+        \nKishori kuch aisa intjam ho jaye.
+        \nJuba pe Radha, Radha Radha naam ho jaye.
+        \n
+        \naate bolo, Radhe Radhe,
+        \njaate bolo, Radhe Radhe.
+        \nuthate bolo, Radhe Radhe,
+        \nsote bolo, Radhe Radhe.
+        \nhasate bolo, Radhe Radhe,
+        \nrote bolo, Radhe Radhe.
+        \n
+        \nShri Radhe Radhe, Shri Radhe Radhe
+        \nShri Radhe Radhe, Shri Radhe Radhe
+        \nRadhe Radhe, Radhe Radhe
+        \nRadhe Radhe, Radhe Radhe
+        \nHamein shyaam mila de
+    </string>
+
+    <string name="radha_sahastra_naam_bhajan">
+        \nShriman Nitya Nikunj Biharne Namah
+        \nShri Bihari Biharini Jo Jayati Shri Swami Haridaso Vijayate Taraoon
+        \n
+        \nSampoorna vishva ne Radha Rani ke naam ka aashraya lekar mere saath Brij ki yatra ki.
+        \nUsi kari mein ab main aap sabko Radha Rani ke 1008 namo ki yatra karane jaa raha hoon.
+        \nKyunki woh Krishna ki param aahladini Shakti hain.
+        \nSamast Shaktiyaan Shri Radha Rani se prakat huyi hain.
+        \nAur Narad Paanch Ratra mein Maa Parvati ke prashna karne par Bhagwan Shiva ne unko Radha Rani ke 1008 namo ka shravan karaya hain aur kaha hai ki “Radha Naam Sahasrasya Samaanam Naasti Bhutaley”
+        \nKi hey Devi Radha Rani ke sahastra namo ke samaan is dharti par koi mantra koi jap nahi hai Aur jo phal samasta tirthon mein bhraman karne ke baad praapta hota hai woh phal ghar baithey hi Radha Rani ke in namo ka shravan karne se praapta hoga
+        \nJo Radha Rani ke in namo ka shravan karenge unke upar meri Kishori ji ki aur mere Banke Bihari ki vishesh kripa nirantar bani rahegi Aur unke jivan mein sukh, shanti, samriddhi, vaibhav, param anand unko nirantar praapta hoga
+        \n
+        \nTo aaiye mere saath milkar hum sab sansar ko bhoolkar Radha Rani ke Sahastra Namo ki yatra par nikal padte hain Aur yehi bhaav rakhte hain ki hum Brij mein, Kunjo mein, Shri Kishori ji ke, Banke Bihari ke Shri charnon mein baithey hue hain
+        \n
+        \nShri Radhe!
+        \nShri Radhe!
+        \n
+        \nRadha Rani Ki Jai Maharani Ki Jai
+        \nRadha Rani Ki Jai Maharani Ki Jai
+        \nBolo Barsane Wali Ki Jai Jai Jai
+        \nRadha Rani Ki Jai Maharani Ki Jai
+        \nBolo Barsane Wali Ki Jai Jai Jai
+        \nRadha Rani Ki Jai Maharani Ki Jai
+        \nRadha Rani Ki Jai Maharani Ki Jai
+        \n
+        \nNain Milakar Mohan So
+        \nVrishbhanu Lali Man Mein Muskani
+        \nBhaun Maror Ke Doosri Ore
+        \nKachu Wah Ghoongat Mein Sharmai
+        \nKachu Wah Ghoongat Mein Sharmai
+        \nKachu Wah Ghoongat Mein Sharmai
+        \n
+        \nDekhi Nihaal Bhai Saajni
+        \nWah Sooratiya Man Mahi Samaani
+        \nHame Auran Ki Parvah Nahi
+        \nApni Thakurani Shri Radhika Rani
+        \nApni Thakurani Shri Radhika Rani
+        \nApni Thakurani Shri Radhika Rani
+        \n
+        \nAaiye mere saath radha sahastra naam yatra prarambh kariye.
+        \n
+        \nShri Radha
+        \nShri Radhika
+        \nShri Krishna Vallabha
+        \nShri Krishna Samyuta
+        \nShri Vrindavaneshvari
+        \nShri Krishna Priya
+        \nShri Madana Mohini
+        \nShri Krishna Kanta
+        \nKrishnananda Pradayini
+        \nShri Yashasvini
+        \nShri Yashogamya
+        \nYashodananana Vallabha
+        \nDamodara Priya
+        \nShri Gopi
+        \nGopananda Kari
+        \nShri Krishnanga Vasini
+        \nShri Hridya
+        \nShri Hari Kanta
+        \nShri Hari Priya
+        \nShri Pradhana Gopika
+        \nShri Gopa Kanya
+        \nTrailokya Sundari
+        \nVrindavana Vihari
+        \nVikashita Mukhambuja
+        \nGokulananda Kartri
+        \nGokulananda Dayini
+        \nShri Gati Prada
+        \nShri Gita Gamya
+        \nGamanagamana Priya
+        \nShri Vishnu Priya
+        \nShri Vishnu Kanta
+        \nVishnor Anga Nivasini
+        \nYashodananda Patni
+        \nYashodananda Gehini
+        \nKamari Kanta
+        \nShri Kameshi
+        \nKama Lalasa Vigraha
+        \nShri Jaya Prada
+        \nShri Jaya
+        \nShri Jiva
+        \nJivananda Pradayini
+        \nNandanandana Patni
+        \nVrishabhanu Suta
+        \nShri Shiva
+        \nShri Ganadhyaksha
+        \nShri Gavadhyaksha
+        \nGavamanuttmaghti
+        \nShri Kanchanabha
+        \nShri Hema Gatra
+        \nKancanangada Dharini
+        \nShri Ashoka
+        \nShri Shokarahita
+        \nShri Vishoka
+        \nShri Shoka Nashini
+        \nShri Gayatri
+        \nShri Veda Mata
+        \nShri Vedatita
+        \nShri Vid Uttama
+        \nNiti Shastra Priya
+        \nShri Niti
+        \nShri Gati
+        \nShri Mati
+        \nShri Abhishtada
+        \nShri Veda Priya
+        \nShri Veda Garbha
+        \nVeda Marga Pravardhini
+        \nShri Veda Gamya
+        \nShri Veda Para
+        \nVicitra Kanakojjvala
+        \nUjjvala Prada
+        \nShri Nitya
+        \nUjjvala Gatrika
+        \nShri Nanda Priya
+        \nNanda Sutaradhya
+        \nAnanda Prada
+        \nShri Shubha
+        \nShri Shubhangi
+        \nShri Vimalangi
+        \nShri Vilasini
+        \nShri Aparajita
+        \nShri Janani
+        \nShri Janma Shunya
+        \nJanma Mrityu Jarapaha
+        \nShri Gatimatam Gatir
+        \nShri Dhatri
+        \nDhatrananda Pradayini
+        \nJagannatha Priya
+        \nShri Shaila Vasini
+        \nShri Hema Sundari
+        \nShri Kishori
+        \nShri Kamala
+        \nShri Padma
+        \nShri Padma Hasta
+        \nShri Payoda Da
+        \nShri Payasvini
+        \nShri Payo Datri
+        \nShri Pavitra
+        \nShri Sarva Mangala
+        \nMaha Jiva Prada
+        \nShri Krishna Kanta
+        \nShri Kamala Sundari
+        \nShri Vicitra Vasini
+        \nShri Citra Vasini
+        \nShri Citra Rupini
+        \nShri Nirguna
+        \nSu Kulina
+        \nShri Nishkulina
+        \nShri Nirakula
+        \nGokulantara Geha
+        \nYogananda Kari
+        \nShri Venu Vadya
+        \nShri Venu Rati
+        \nVenu Vadya Parayana
+        \nGopalasya Priya
+        \nShri Saumya Rupa
+        \nSaumya Kulodvaha
+        \nShri Amoha Moha
+        \nShri Vimoha
+        \nShri Gati Nishtha
+        \nShri Gati Prada
+        \nGirbana Vandya
+        \nShri Girbana
+        \nGirbana Gana Sevita
+        \nShri Lalita
+        \nShri Vishoka
+        \nShri Vishakha
+        \nShri Citra Malini
+        \nShri Jitendriya
+        \nShri Shuddha Sattva
+        \nShri Kulina
+        \nShri Kula Dipika
+        \nShri Dipa Priya
+        \nShri Dipa Datri
+        \nShri Vimala
+        \nShri Vimalodaka
+        \nKantara Vasini
+        \nShri Krishna
+        \nKrishnacandra Priya
+        \nShrimati
+        \nShri Anuttara
+        \nShri Duhkha Hantri
+        \nShri Duhkha Kartri
+        \nShri Kulodvaha
+        \nShri Lakshmi
+        \nShri Dhriti
+        \nShri Lajja
+        \nShri Kanti
+        \nShri Pushti
+        \nShri Smriti
+        \nShri Kshama
+        \nShri Kshirodashayini
+        \nShri Devi
+        \nDevari Kula Mardini
+        \nShri Vaishnavi
+        \nShri Maha Lakshmi
+        \nShri Kula Pujya
+        \nShri Kula Priya
+        \nDaityanam Samhartri
+        \nShri Savitri
+        \nShri Veda Gamini
+        \nShri Niralamba
+        \nNiralamba Gana Priya
+        \nNiralamba Janaih Pujya
+        \nShri Niraloka
+        \nShri Nirashraya
+        \nShri Ekangi
+        \nShri Sarvaga
+        \nShri Sevya
+        \nShri Brahma Patni
+        \nShri Sarasvati
+        \nShri Rasa Priya
+        \nShri Rasa Gamya
+        \nRasadhishthatri
+        \nShri Rasika
+        \nRasikananda
+        \nRaseshwari Para
+        \nRasa Mandala Madhyastha
+        \nRasa Mandala Shobhita
+        \nRasa Mandala Sevya
+        \nRasa Krida Manohara
+        \nPundarikaksha Nilaya
+        \nPundarikaksha Gehini
+        \nPundarikaksha Sevya
+        \nPundarikaksha Vallabha
+        \nSarva Jiveshvari
+        \nSarva Jiva Vandya
+        \nShri Parat Para
+        \nShri Prakriti
+        \nShambhu Kanta
+        \nSadashiva Manohara
+        \nShri Ksute
+        \nShri Pipasa
+        \nShri Daya
+        \nShri Nidra
+        \nShri Bhranti
+        \nShri Shranti
+        \nShri Kshamakula
+        \nShri Vadhu Rupa
+        \nShri Gopa Patni
+        \nShri Bharati
+        \nShri Siddha Yogini
+        \nShri Satya Rupa
+        \nShri Nitya Rupa
+        \nShri Nityangi
+        \nShri Nitya Gehini
+        \nShri Sthana Datri
+        \nShri Mahalakshmi
+        \nShri Svayam Prabha
+        \nShri Sindhu Kanya
+        \nAasthaan Datri
+        \nShri Dvaraka Vasini
+        \nShri Buddhi
+        \nShri Sthiti
+        \nShri Sthana Rupa
+        \nSarva Karana Karana
+        \nShri Bhakti Priya
+        \nShri Bhakti Gamya
+        \nBhaktananda Pradayini
+        \nBhakta Kalpa Drumatita
+        \nShri Atita Guna
+        \nMano Dhishthatri Devi
+        \nKrishna Prema Parayana
+        \nShri Niramaya
+        \nShri Saumya Datri
+        \nShri Madana Mohini
+        \nAkaa Namsa Shiva
+        \nShri Kshema
+        \nShri Durga
+        \nShri Durgati Nashini
+        \nShri Ishvari
+        \nShri Sarva Vandya
+        \nShri Gopaniya
+        \nShri Shubhankari
+        \nSarva Bhutanam Palini
+        \nKamanga Harini
+        \nSadyo Mukti Prada
+        \nShri Veda Sara
+        \nShri Himalaya Suta
+        \nShri Sarva
+        \nShri Parvati
+        \nShri Girija
+        \nShri Sati
+        \nShri Daksha Kanya
+        \nShri Deva Mata
+        \nShri Manda Lajja
+        \nShri Hares Tanuh
+        \nVrindaranya Priya
+        \nShri Vrinda
+        \nVrindavana Vilasini
+        \nShri Vilasini
+        \nShri Vaishnavi
+        \nBrahmaloka Pratishthita
+        \nShri Rukmini
+        \nShri Revati
+        \nShri Satyabhama
+        \nShri Jambavati
+        \nShri Sulakshmana
+        \nShri Mitravinda
+        \nShri Kalindi
+        \nShri Jahnu Kanyka
+        \nShri Paripurna
+        \nShri Purnatara
+        \nShri Haimavati
+        \nShri Apurva
+        \nShri Brahma Rupa
+        \nBrahmanda Paripalini
+        \nBrahmanda Bhanda Madbyastha
+        \nBrahmanda Bhanda Rupini
+        \nShri Anda Rupa
+        \nShri Anda Madhyastha
+        \nAnda Paripalini
+        \nShri Anda Bahya
+        \nShri Anda Samhartri
+        \nShiva Brahma Hari Priya
+        \nMaha Vishnu Priya
+        \nKalpa Vriksha Rupa
+        \nShri Nirantara
+        \nShri Sara Bhuta
+        \nShri Gauri
+        \nShri Gaurangi
+        \nShveta Campaka Varnabha
+        \nShri Shashi Shekhara
+        \nShri Sthiraa
+        \nShashi Koti Sama Prabha
+        \nMalati Malya Bhushadhya
+        \nMalati Malya Dharini
+        \nTulasya Adhishthatri Devi
+        \nShri Sarada
+        \nShri Aharada
+        \nShri Ambhoda
+        \nShri Yashoda
+        \nShri Gopa Nandini
+        \nShri Atita Gamana
+        \nSamsara Rvana Parada
+        \nParanugraha Karani
+        \nKarunarnava Sampurna
+        \nKarunarnava Dharini
+        \nShri Madhavi
+        \nMadhava Mano Harini
+        \nShri Shyama Vallabha
+        \nAndhakara Bhaya Dhvasta
+        \nShri Mangalya
+        \nShri Mangala Prada
+        \nShri Garbha
+        \nShri Prada
+        \nShrisha
+        \nShri Nivasaachyuta Prabha
+        \nShri Rupa
+        \nShri Hara
+        \nShrida
+        \nShri Kama
+        \nShri Svarupini
+        \nShri Damananda Datri
+        \nShri Dameshvara Vallabha
+        \nShri Nitamba
+        \nShri Ganesha
+        \nShri Svarupashrita
+        \nShri Shruti
+        \nShri Kriya Rupini
+        \nShrila
+        \nShri Krishna Bhajananvita
+        \nShri Shruti Priya
+        \nShri Shreshtha Rupa
+        \nShri Yogeshi
+        \nShri Yoga Mata
+        \nShri Yogatita
+        \nShri Yuga Priya
+        \nShri Yoga Priya
+        \nShri Yoga Gamya
+        \nYogini Gana Vandita
+        \nJava Kusuma Sankasa
+        \nDad Imi Kusumopama
+        \nNilambara Dhara
+        \nShri Dhira
+        \nDhairya Rupa Dhara Dhriiti
+        \nRatna Simhasana Stha
+        \nRatnalankara Samyukta
+        \nRatna Kundala Bhushita
+        \nRatna Malya Dhara
+        \nShri Para
+        \nRatnendra Sara Haradhya
+        \nRatna Mala Vibhushita
+        \nIndranila Mani Nyasta Pada Padma Shubha
+        \nShri Shuchih
+        \nShri Karttiki
+        \nShri Paurnamasi
+        \nShri Amavasya
+        \nShri Bhayapaha
+        \nGovinda Raja Grihini
+        \nGovinda Gana Pujita
+        \nVaikuntha Natha Grihini
+        \nVaikuntha Paramalaya
+        \nVaikuntha Deva Devadhya
+        \nShri Vaikuntha Sundari
+        \nShri Mahalasa
+        \nShri Vedavati
+        \nShri Sita
+        \nShri Sadhvi
+        \nShri Pati Vrata
+        \nShri Anna Purna
+        \nShri Sadananda Rupa
+        \nShri Kaivalya Sundari
+        \nShri Kaivalya Dayini
+        \nGopinatha Manohara
+        \nGopinatheshvari
+        \nShri Candi
+        \nNayika Nayananvita
+        \nShri Nayika
+        \nShri Nayaka Prita
+        \nNayakananda Rupini
+        \nShri Shesha
+        \nShri Sheshavati
+        \nShri Shesha Rupini
+        \nShri Jagad Ambika
+        \nGopala Palika
+        \nShri Maya
+        \nJayanandaprada
+        \nShri Kumari
+        \nYauvanananda
+        \nShri Yuvati
+        \nShri Gopa Sundari
+        \nShri Gopa Mata
+        \nShri Janaki
+        \nJanakananda Karini
+        \nShri Kailasa Vasini
+        \nShri Rambha
+        \nVairagyakula Dipika
+        \nKamala Kanta Grihini
+        \nShri Kamala
+        \nShri Kamalalaya
+        \nTrailokya Mata
+        \nJagatam Adhishthatri
+        \nShri Priya Ambika
+        \nShri Hara Kanta
+        \nShri Hara Rata
+        \nHarananda Pradayini
+        \nShri Hara Patni
+        \nShri Hara Prita
+        \nHara Toshana Tatpara
+        \nShri Hareshvari
+        \nShri Rama Rata
+        \nShri Rama
+        \nShri Rameshvari
+        \nShri Rama
+        \nShri Shyamala
+        \nShri Citra Lekha
+        \nShri Bhuvana Mohini
+        \nShri Su Gopi
+        \nShri Gopa Vanita
+        \nGopa Rajya Prada
+        \nNari Bhuvana Sundari
+        \nAngavapurna
+        \nShri Maheyi
+        \nMatsya Raja Suta Sati
+        \nShri Kaumari
+        \nShri Narasimhi
+        \nShri Varahi
+        \nShri Nava Durgika
+        \nShri Cancala Cancalamoda
+        \nShri Daksha Yajna Hara
+        \nShri Dakshi
+        \nShri Daksha Kanya
+        \nShri Su Locana
+        \nShri Rati Rupa
+        \nShri Rati Prita
+        \nShri Rati Shreshtha
+        \nShri Rati Prada
+        \nRati Lakshmana Geha Stha
+        \nShri Viraja
+        \nShri Bhuvaneshvari
+        \nShankhaspada
+        \nHarer Jaya
+        \nJamatri Kula Vandita
+        \nShri Bakula
+        \nBakulamoda Dharini
+        \nShri Yamuna Jaya
+        \nShri Vijaya
+        \nShri Jaya Patni
+        \nYamalarjuna Bhanjini
+        \nShri Vakreshvari
+        \nShri Vakra Rupa
+        \nVakra Vikshana Vikshita
+        \nAparajita
+        \nShri Jagannatha
+        \nJagannatheshvari
+        \nShri Yati
+        \nShri Khecari
+        \nShri Khecara Suta
+        \nKhecaratva Pradayini
+        \nVishnu Vakshah Sthala Stha
+        \nVishnu Bhavana Tatpara
+        \nCandra Koti Sugatri
+        \nCandranana Manohara
+        \nShri Seva
+        \nShri Sevya
+        \nShri Kshema
+        \nShri Kshema Kari
+        \nShri Vadhu
+        \nYadavendra Vadhu
+        \nShri Sevya
+        \nShri Shiva Bhakta
+        \nShri Shivanvita
+        \nShri Kevala
+        \nShri Nishphala
+        \nShri Sukshma
+        \nShri Maha Bhima
+        \nShri Abhayaprada
+        \nShri Jimuta Rupa
+        \nShri Jaimuti
+        \nJitamitra Pramodini
+        \nGopala Vanita
+        \nShri Nanda
+        \nKulajaindra Nivasini
+        \nShri Jayanti
+        \nShri Yamunangi
+        \nYamuna Tosha Karini
+        \nKali Kalmasha Bhanga
+        \nKali Kalmasha Nashini
+        \nKali Kalmasha Rupa
+        \nNityananda Kari
+        \nShri Kripa
+        \nShri Kripavati
+        \nShri Kulavati
+        \nKailasacala Vasini
+        \nShri Vama Devi
+        \nShri Vama Bhaga
+        \nGovinda Priya Karini
+        \nNagendra Kanya
+        \nShri Yogeshi
+        \nShri Yogini
+        \nShri Yoga Rupini
+        \nShri Yoga Siddha
+        \nShri Siddha Rupa
+        \nSiddha Kshetra Nivasini
+        \nKshetradhishthatri Rupa
+        \nShri Kshetratita
+        \nShri Kula Prada
+        \nKeshavananda Datri
+        \nKeshavananda Dayini
+        \nShri Keshava
+        \nShri Keshava Prita
+        \nShri Keshavi
+        \nKeshava Priya
+        \nRasa Krida Kari
+        \nShri Rasa Vasini
+        \nShri Rasa Sundari
+        \nGokulanvita Deha
+        \nGokulatva Pradayini
+        \nLavanga Namni
+        \nShri Narangi
+        \nNaranga Kula Mandana
+        \nShri Mukhya
+        \nShri Mukhya Prada
+        \nShri Mukhya Rupa
+        \nShri Mukhya Nivasini
+        \nShri Narayani
+        \nShri Kripatita
+        \nEla Lavanga Karpura Mukha Vasa Mukhanvita
+        \nKarunamaya Karini
+        \nShri Karunya
+        \nShri Karuna
+        \nShri Karna
+        \nShri Gokarna
+        \nNaga Karnika
+        \nShri Sarpini
+        \nShri Kaulini
+        \nKshetra Vasini
+        \nJagad Anvaya
+        \nShri Jatila
+        \nShri Kutila
+        \nShri Nila
+        \nNilambaradhara Shubha
+        \nNilambara Vidhatri
+        \nNilakantha Priya
+        \nShri Bhagini
+        \nShri Bhaagini
+        \nShri Bhogya
+        \nShri Krishna Bhogya
+        \nBhageshwari
+        \nShri Baleshvari
+        \nShri Balaradhya
+        \nShri Kanta
+        \nKanta Nitambini
+        \nShri Nitambini
+        \nShri Rupavati
+        \nShri Yuvati
+        \nShri Krishna Pivari
+        \nShri Vibhavari
+        \nShri Vetravati
+        \nShri Sankata
+        \nKutilalaka
+        \nNarayana Priya
+        \nShri Shalila
+        \nShrikkani Parimohita
+        \nDrikpata Mohita
+        \nShri Pratarasini
+        \nShri Navanitika
+        \nShri Navina
+        \nShri Nava Nari
+        \nNaranga Phala Shobhita
+        \nShri Haimi
+        \nShri Hema Mukhi
+        \nShri Candra Mukhi
+        \nShashi Su Shobhana
+        \nArdha Candra Dhara
+        \nCandra Vallabha
+        \nShri Rohini
+        \nShri Tami
+        \nSarva Bhutanam Karani
+        \nShri Karyatita
+        \nShri Kishorini
+        \nShri Kishora Vallabha
+        \nKesha Karika
+        \nTimingla Kulamoda Matsya Rupanga Harini
+        \nShri Kama Karika
+        \nShri Kameshvari
+        \nShri Kama Kala
+        \nKalindi Kula Dipika
+        \nKalindatanaya Tira Vasini
+        \nShri Tira Gehini
+        \nKadambari Pana Para
+        \nKusumamoda Dharini
+        \nShri Kumuda
+        \nKumudananda
+        \nShri Krishneshi
+        \nShri Kama Vallabha
+        \nShri Tarkali
+        \nNimba Dadima Rupini
+        \nShri Vaijayanti
+        \nBilva Vriksha Priya
+        \nKrishnambara
+        \nBilvopama Stani
+        \nBilvatmika
+        \nShri Bilva Vapuh
+        \nBilva Vriksha Nivasini
+        \nTulasi Toshika
+        \nShri Gaja Mukta
+        \nMaha Mukta
+        \nMaha Mukti Phala Prada
+        \nAnanga Mohini
+        \nTaitilananda Paritoshika
+        \nShri Shakti Rupa
+        \nShakti Svarupini
+        \nPanca Shakti Svarupa
+        \nShaishavananda Karini
+        \nShri Gajendra Gamini
+        \nShri Shyama Lata
+        \nShri Ananga Lata
+        \nYoshit Shakti Svarupa
+        \nYosida Nanda Karini
+        \nShri Prema Priya
+        \nShri Prema Rupa
+        \nPremananda Tarangini
+        \nShri Prema Hara
+        \nShri Prema Datri
+        \nPrema Shaktimayi
+        \nKrishna Premavati
+        \nShri Dhanya
+        \nKrishna Prema Tarangini
+        \nPrema Bhakti Prada
+        \nShri Prema
+        \nPremananda Tarangini
+        \nPrema Krida Paritangi
+        \nPrema Bhakti Tarangini
+        \nPremartha Dayini
+        \nShri Sarvashveta
+        \nShri Nitya Tarangini
+        \nHava Bhavanvita
+        \nShri Raudra
+        \nRudrananda Prakashini
+        \nShri Kapila
+        \nShri Shrinkhala
+        \nKesha Pasha Sambandhini
+        \nShri Ghati
+        \nShri Kutira Vasini
+        \nShri Dhumra
+        \nShri Dhumra Kesha
+        \nShri Jalodari
+        \nBrahmanda Gocara
+        \nBrahma Swarupini
+        \nShri Bhava Bhavini
+        \nSamsara Nashini
+        \nShri Shaiva
+        \nShaivalananda Dayini
+        \nShri Shishira
+        \nHema Ragadbya
+        \nMegha Rupati Sundari
+        \nShri Manorama
+        \nShri Vegavati
+        \nShri Vegadhya
+        \nVeda Vadini
+        \nShri Dayanvita
+        \nShri Dayadhara
+        \nShri Daya Rupa
+        \nSusevini
+        \nKishora Sanga Samsarga
+        \nGaura Candranana
+        \nShri Kala
+        \nKaladhinatha Vadana
+        \nKalanathadhirohini
+        \nShri Viraga Kushala
+        \nShri Hema Pingala
+        \nShri Hema Mandana
+        \nBhandira Talavana Ga
+        \nShri Kaivarti
+        \nShri Pivari
+        \nShri Shuki
+        \nShukadeva Gunatita
+        \nShukadeva Priya Sakhi
+        \nShri Kosha
+        \nVikalotkarshini
+        \nKausheyambara Dharini
+        \nKoshavari
+        \nShri Kosha Rupa
+        \nJagad Utpatti Karika
+        \nShrishti Sthiti Kari
+        \nShri Samharini
+        \nSamhara Karini
+        \nKesha Shaivala Dhatri
+        \nShri Candra Gatra
+        \nShri Su Komala
+        \nPadmangaraga Samraga
+        \nVindhyadri Parivasini
+        \nVindhyalaya
+        \nShri Shyama Sakhi
+        \nSakhi Samsara Ragini
+        \nShri Bhuta
+        \nShri Bhavishya
+        \nShri Bhavya
+        \nShri Bhavya Gatra
+        \nShri Bhavatiga
+        \nBhava Nashanta Karini
+        \nShri Akasha Rupa
+        \nShri Su Veshini
+        \nRati Ranga Parityaga
+        \nRati Vega
+        \nShri Rati Prada
+        \nTejasvini
+        \nTejo Rupa
+        \nKaivalya Patha Da
+        \nShri Bhakti Hetur
+        \nShri Mukti Hetur
+        \nShri Langhini
+        \nLanghana Kshama
+        \nShri Vishala Netra
+        \nShri Vaisali
+        \nVaishala Kula Sambhava
+        \nVaishala Griha Vasa
+        \nVaishala Vadari Ratih
+        \nBhakty Atita
+        \nBhakta Gati
+        \nShri Bhaktika
+        \nShiva Bhakti Da
+        \nShiva Bhakti Svarupa
+        \nShivardhanga Viharini
+        \nShirisha Kusumamoda
+        \nShirisha Kusumojjvala
+        \nShirisha Mridhvi
+        \nShri Shairishi
+        \nShirisha Kusumakriti
+        \nVishnoh Vamanga Harini
+        \nShiva Bhakti Sukhanvita
+        \nShri Vijita
+        \nVijitamoda
+        \nShri Gagana
+        \nGana Toshita
+        \nShri Hayasya
+        \nHeramba Suta
+        \nShri Gana Mata
+        \nShri Sukheshvari
+        \nShri Duhkha Hantri
+        \nShri Duhkha Hara
+        \nSevitepsita Sarvada
+        \nSarvajnatva Vidhatri
+        \nKula Kshetra Nivasini
+        \nShri Lavanga
+        \nPandava Sakhi
+        \nSakhi Madhya Nivasini
+        \nShri Gramya Gita
+        \nShri Gaya
+        \nShri Gamya
+        \nGamanatita Nirbhara
+        \nSarvanga Sundari
+        \nShri Ganga
+        \nGanga Jalamayi
+        \nGangerita
+        \nPuta Gatra
+        \nPavitra Kula Dipika
+        \nPavitra Guna Shiladhya
+        \nPavitrananda Dayini
+        \nPavitra Guna Simadhya
+        \nPavitra Kula Dipani
+        \nKalpamana
+        \nShri Kamsa Hara
+        \nVindhyacala Nivasini
+        \nGovardhaneshvari
+        \nGovardhana Hasya
+        \nShri Hayakriti
+        \nMinavatara
+        \nShri Mineshi
+        \nShri Gaganeshi
+        \nShri Haya
+        \nShri Gaji
+        \nShri Harini
+        \nShri Haarini
+        \nHara Dharini
+        \nKanakakriti
+        \nVidyut Prabha
+        \nShri Vipra Mata
+        \nShri Gopa Mata
+        \nShri Gayeshvari
+        \nShri Gaveshvari
+        \nShri Gaveshi
+        \nShri Gavishi
+        \nGati Vasini
+        \nShri Gatigya
+        \nGita Kushala
+        \nDanujendra Nivarini
+        \nNirvana Datri
+        \nNairvani
+        \nHetu Yukta
+        \nGayottara
+        \nParvatadhinivasa
+        \nNivasa Kushala
+        \nSannyasa Dharma Kushala
+        \nShri Sannyaseshi
+        \nShri Sharan Mukhi
+        \nSharad Candra Mukhi
+        \nShyama Hara
+        \nShri Kshetra Nivasini
+        \nVasanta Raga Samraga
+        \nVasanta Vasanakriti
+        \nShri Catur Bhuja
+        \nShri Shad Bhuja
+        \nShri Dvi Bhuja
+        \nShri Gaura Vigraha
+        \nShri Sahasrasya
+        \nShri Vihasya
+        \nShri Mudrasya
+        \nShri Muda Dayini
+        \nShri Prana Priya
+        \nShri Prana Rupa
+        \nPrana Rupinya Pavrta
+        \nShri Krishna Prita
+        \nShri Krishna Rata
+        \nKrishna Toshana Tat Para
+        \nKrishna Prema Rata
+        \nKrishna Bhakta
+        \nBhakta Phala Prada
+        \nShri Krishna Prema
+        \nShri Prema Bhakta
+        \nHari Bhakti Pradayini
+        \nChaitanya Rupa
+        \nChaitanya Priya
+        \nChaitanya Rupini
+        \nShri Ugra Rupa
+        \nShri Shiva Kroda
+        \nShri Krishna Kroda
+        \nShri Jalodari
+        \nShri Mahodari
+        \nShri Candravali
+        \nShri Candra Keshi
+        \nCandra Prema Tarangini
+        \nSamudra Mathanodbhuta
+        \nSamudra Jala Vasini
+        \nMaha Durga Kantara Sustha Vasini
+        \nSamudramrita Rupa
+        \nSamudra Jala Vasika
+        \nKesha Pasha Rata
+        \nShri Nidra
+        \nShri Kshudha
+        \nShri Prema Tarangika
+        \nShri Nagari
+        \nNagararaga
+        \nNagarananda Karini
+        \nNagaralingana Para
+        \nNagarangana Mangala
+        \nShri Ucca Nica
+        \nHaimavati Priya
+        \nDurva Dala Shyama Tanu
+        \nDurva Dala Tanu Ccbavi
+        \nShri Krishna Taranga Da
+        \nPremalingana Siddhangi
+        \nSiddha Sadhya Vilasika
+        \nMangalamoda Janani
+        \nMekhalamoda Dharini
+        \nRatna Manjira Bhushangi
+        \nRatna Bhushana Bhushana
+        \nJambala Malika
+        \nShri Krishna Prana
+        \nPrana Vimocana
+        \nShri Satya Prada
+        \nShri Satyavati
+        \nSevakananda Dayika
+        \nShri Jagad Yoni
+        \nShri Jagad Bija
+        \nVicitra Mani Bhushana
+        \nRadha Ramana Kanta
+        \nShri Radhya
+        \nRadhana Rupini
+        \nKailasa Vasini
+        \nKrishnavatara Nirata
+        \nKrishna Bhakta Phalarthini
+        \nYacakojjvala
+        \nHari Bhushana Bhushadhya
+        \nShri Ananda Yukta
+        \nKrishna Prana Sarvasva Dayini
+        \nDhana Dhanya Vidhatri
+        \nShri Jaaya
+        \nShri Kaaya
+        \nShri Haya
+        \nShri Hayi
+        \nShri Pranaba
+        \nPranaveshi
+        \nPranavartha Svarupini
+        \nShri Shaiva Shilshapa
+        \nSakalepsit Datri
+        \nShri Pativrata
+        \nShri Pati Prana
+        \nPati Vakya Vinodini
+        \nAkshesha Sadhini
+        \nVidusham Priti Janani
+        \nVidvat Prema Vivardhini
+        \nShri Nadeshi
+        \nShri Nada Rupa
+        \nNada Bindu Vidharini
+        \nKarttika Vrata Kartri
+        \nVasana Harini
+        \nShri Jala Shaya
+        \nShri Jala Tala
+        \nShila Tala Nivasini
+        \nKshudra Kitanga Samsarga
+        \nSanga Dosha Vinashini
+        \nShunya Sthana Sthita
+        \nShunya Rupa Padapa Vasini
+        \nKoti Kandarpa Lavanya
+        \nKoti Kandarpa Sundari
+        \nKoti Kandarpa Janani
+        \nKama Bija Pradayini
+        \nKama Shastra Vinoda
+        \nKama Shastra Prakashini
+        \nShri Kama Prakashika
+        \nShri Kamini
+        \nAnimady Ashta Siddhi Da
+        \nShri Yamini
+        \nYamini Natha Vadana
+        \nYaminishvari
+        \nYaga Yoga Hara
+        \nBhukti Mukti Datri
+        \nShri Hiranya Da
+        \nKapala Malini
+        \nShri Dhama Rupini
+        \nShri Apurva Da
+        \nShri Kripanvita
+        \nShri Guna Gaunya
+        \nGunatita Phala Prada
+        \nSharadanvita
+        \nShri Sitala
+        \nShri Shavala
+        \nShri Hela
+        \nShri Lila
+        \nLavanya Mangala
+        \nBhuta Vetala Nashini
+        \nShri Vidyarthini
+        \nVidyamana
+        \nShri Vidya
+        \nVidya Svarupini
+        \nShri Shivanvita
+        \nAnvikshiki Shastra Rupa
+        \nShastra Siddhanta Karini
+        \nShri Nagendra
+        \nShri Naga Mata
+        \nKrida Kautuka Rupini
+        \nHari Bhavana Shila
+        \nHari Toshana Tat Para
+        \nShri Hari Prana
+        \nShri Hara Prana
+        \nShri Shiva Prana
+        \nNarakarnava Samhantri
+        \nNarakarnava Nashini
+        \nShri Nareshvari
+        \nShri Naratita
+        \nShri Nara Sevya
+        \nShri Narangana
+        \nYashodanandana Vallabha
+        \nShri Hari Vallabha
+        \nYashodanandanaramya
+        \nYashodanandaneshvari
+        \nYashodanandanakrida
+        \nYashoda Kroda Vasini
+        \nYashodanandana Prana
+        \nYashodanandanarthada
+        \nShri Vatsala
+        \nShri Kaushala
+        \nShri Kaala
+        \nKarunarnava Rupini
+        \nShri Svarga Lakshmi
+        \nShri Bhumi Lakshmi
+        \nShri Draupadi
+        \nShri Pandava Priya
+        \nShri Arjuna Sakhi
+        \nShri Kalpa Vasini
+        \nShri Kalpa Rupini
+        \nBhima Kulodvaha
+        \nShri Bhuvana Mohana
+        \nShri Kshina
+        \nPanasakta Tara
+        \nShri Panarthini
+        \nShri Pana Patra
+        \nPana Pananda Dayini
+        \nDugdha Manthana Karmadhya
+        \nDugdha Manthana Tat Para
+        \nDadhi Bhandarthini
+        \nKrishna Krodhini
+        \nNandanangana
+        \nShri Ghrta Lipta
+        \nShri Takra Yukta
+        \nYamuna Para Kautuka
+        \nShri Vicitra Kathaka
+        \nKrishna Hasya Bhashana Tat Para
+        \nGopanganaveshtita
+        \nKrishna Sangarthini
+        \nShri Rasasakta
+        \nShri Rasa Rati
+        \nAsavasakta Vasana
+        \nShri Haridra
+        \nShri Harita
+        \nNishchaitanya
+        \nShri Nishceta
+        \nShri Daru Haridrika
+        \nSubalasya Svasa
+        \nShri Harina
+        \nAnandarpita Cetana
+        \nShri Krishna Bharya
+        \nBhashati Vegini
+        \nShridamasya Shakhi
+        \nDama Damini
+        \nDama Dharini
+        \nShri Kailasini
+        \nShri Keshini
+        \nHarid Ambara Dharini
+        \nHari Sannidhya Datri
+        \nHari Kautuka Mangala
+        \nShri Hari Prada
+        \nShri Hari Dvara
+        \nShri Jaitra Prada
+        \nYamuna Jala Vasini
+        \n
+        \nHo Meri Pyari Ko Naam Shri Radhe
+        \nKrishna Pyari Ko Naam Shri Radhe
+        \nHo Shri Radhe Shri Radhe
+        \nShri Radhe Shri Radhe……..
+        \nHo Nathwari Ko Naam Shri Radhe
+        \nShyama Pyari Ko Naam Shri Radhe………..
+        \n
+        \nHo Man Bhool Mat Jaiyo Radha Rani Ke Charan
+        \nHo Radhi Rani Ke Charan Maharani Ke Charan
+        \nHo Radhi Rani Ke Charan Shyama Pyari Ke Charan……..
+        \nHo Man Bhool Mat Jaiyo Radha Rani Ke Charan
+        \nMere Man Bhool Mat Jaiyo Shyami Pyari Ke Charan……….
+        \n
+        \nRadha Rani Ki Jai Maharani Ki Jai
+        \nBolo Barsane Wali Ki Jai Jai Jai
+        \nHo Radha Rani Ki Jai Maharani Ki Jai
+        \nBolo Barsane Wali Ki Jai Jai Jai……..
+        \nHo Radha Rani Ki Jai Maharani Ki Jai
+        \nHo Radha Rani Ki Jai Maharani Ki Jai……..
+        \n
+        \nYe naam yatra Kishori Ji ke charnon mein samarpit karte hain.
+        \nUnke kripa hamesha hamare upar bani rahe.
+        \n
+        \nJai Jai Shri Radhe!
+        \nJai Jai Shri Radhe!
+        \nJai Jai Shri Radhe!
+    </string>
+
+    <string name="govinda_krishna_hari_om_bhajan">
+        Lyrics not available.
+    </string>
+
+    <string name="madhurashtakam_bhajan">
+        \nAdharam Madhuram Vadanam Madhuram
+        \nNayanam Madhuram, Hasitham Maduram,
+        \nHrudhayam Madhuram, Gamanam Maduram,
+        \nMadhuradhipather Akhilam Madhuram
+        \n
+        \nVachanam Madhuram, Charitham Madhuram,
+        \nVasanam Madhuram, Valitham Madhuram,
+        \nChalitham Madhuram, Bramitham Maduram,
+        \nMadhurathipather Akhilam Madhuram
+        \n
+        \nVenur Madhuro, Renur Madhuraha,
+        \nPanir Madhuraha, Padhou Madhuram,
+        \nNrithyam Madhuram, Sakhyam Madhuram,
+        \nMadurathipather Akhilam Madhuram
+        \n
+        \nGeetham Madhuram, Peetham Madhuram,
+        \nBhuktham Madhuram,Suptham Madhuram,
+        \nRoopam Madhuram, Thilakam Madhuram
+        \nMadhurathipather Akhilam Madhuram
+        \n
+        \nKaranam Madhuram, Tharanam Madhuram,
+        \nHaranam Madhuram, Smaranam Madhuram,
+        \nVamitham Madhuram, Samitham Maduram,
+        \nMadhurathipather Akhilam Madhuram
+        \n
+        \nGunja Madhura, Mala Madhura,
+        \nYamuna Madhura, Veechi Madhura,
+        \nSalilam Madhuram, Kamalam Madhuram,
+        \nMadhurathipather Akhilam Madhuram
+        \n
+        \nGopi Madhura, Leela Madhura,
+        \nYuktham Madhuram, Muktham Madhuram,
+        \nDrishtam Madhuram,Sishtam Madhram,
+        \nMadhurathipather Akhilam Madhuram
+        \n
+        \nGopa Madhura, Gavo Madhura,
+        \nYashtir Madhura, Srushtir Madhra,
+        \nDhalitham Madhram, Phalitham Madhuram,
+        \nMadhurathipather Akhilam Madhuram
+    </string>
+    
+    <string name="shyam_chudi_bechne_bhajan">
+        \nManihari Ka Bhesh Banaya,Shyam Chudi Bechne Aaya
+        \nChhaliya Ka Bhesh Banaya,Shyam Chudi Bechne Aaya
+        \nChhaliya Ka Bhesh Banaya,Shyam Chudi Bechne Aaya
+        \n
+        \nJholi kandhe dhari us mei churi bhari,
+        \n
+        \nGaliyon Mein Shor Machaya.Shyam Chudi Bechne Aaya
+        \nChhaliya Ka Bhesh Banaya
+        \n
+        \nRadha Ne Suni Lalita Se Kahi,Mohan Ko Turant Bulaya
+        \nShyam Chudi Bechne Aaya,Chhaliya Ka Bhesh Banaya
+        \n
+        \nChudi Laal Nahi Pehnu.Chudi Hari Nahi Pehnu
+        \nMujhe Shyam Rang Hai Bhaaya,Shyam Chudi Bechne Aaya
+        \nChhaliya Ka Bhesh Banaya,Shyam Chudi Bechne Aaya
+        \n
+        \nRadha Pehnan Lagi,Shyam Pehnane Lage
+        \nRadha Ne Haath Badaya,Shyam Chudi Bechne Aaya
+        \nChhaliya Ka Bhesh Banaya,Shyam Chudi Bechne Aaya
+        \n
+        \nRadha Kehne Lagi,Tum Toh Chhaliya
+        \nBade Dheere Se Haath Dabaya,Shyam Chudi Bechne Aaya
+        \nChhaliya Ka Bhesh Banaya,Chhaliya Ka Bhesh Banaya
+        \nManihari Ka Bhesh Banaya,Shyam Chudi Bechne Aaya
+    </string>
+    
+    <string name="nand_ke_anand_bhayo_bhajan">
+        \nHey Anand Umang Bhayo, Jai Ho Nand Lal Ki
+        \nNand Ke Anand Bhayo, Jai Kanhiya Lal Ki
+        \nBraj Mein Anand Bhayo, Jai Yashoda Lal Ki
+        \nHaathi Ghoda Paal Ki, Jai Kanhiya Lal Ki
+        \n
+        \nJai Ho Nand Lal Ki, Jai Yashoda Lal Ki
+        \nGokul Mein Anand Bhayo, Jai Kanhiya Lal Ki
+        \n
+        \nHey Anand Umang Bhayo, Jai Ho Nand Lal Ki
+        \nGokul Ke Anand Bhayo, Jai Kanhiya Lal Ki
+        \nJai Yashoda Lal Ki, Jai Ho Nand Lal Ki
+        \nHathi Ghoda Paal Ki, Jai Kanhiya Lal Ki
+        \n
+        \nJai Ho Nand Lal Ki, Jai Yashoda Lal Ki
+        \nHathi Ghoda Paal Ki, Jai Kanhiya Lal Ki
+        \n
+        \nKoti Brahmaand Ke, Adhipati Laal Ki
+        \nHathi Ghoda Paal Ki, Jai Kanhiya Laal Ki
+        \nGaune Chaarane Aaye, Jai Ho Pashupaal Ki
+        \nNand Ke Anand Bhayo, Jai Kanhiya Lal Ki
+        \n
+        \nPunam Ki Chand Jaise, Shobha Hai Baal Ki
+        \nHathi Ghoda Paal Ki, Jai Kanhiya Laal Ki
+        \nHey Anand Umang Bhayo Jai Ho Nand Laal Ki
+        \nGokul Mein Anand Bhayo, Jai Kanhiya Laal Ki
+        \n
+        \nBhakto Ke Anand Kand, Jai Yashoda Laal Ki
+        \nHathi Ghoda Paal Ki, Jai Kanhiya Laal Ki
+        \nHey Jai Yashoda Laal Ki, Jai Ho Gopal Ki
+        \nGokul Mein Anand Bhayo, Jai Kanhiya Laal Ki
+        \n
+        \nAnand Se Bolo Sab, Jai Ho Braj Laal Ki
+        \nHathi Ghoda Paal Ki, Jai Kanhiya Laal Ki
+        \nJai Ho Braj Laal Ki, Paawan Pratipaal Ki
+        \nHey Nand Ke Anand Bhayo, Jai Ho Nand Laal Ki
+    </string>
+    
+    <string name="hey_krishna_gopal_hari_bhajan">
+        \nHey krishan gopal hari
+        \nHey deen dyal hari
+        \nHey krishan gopal hari
+        \nHey deen dyal hari
+        \n
+        \nHey krishan gopal hari
+        \nHey deen dyal hari
+        \nHey krishan gopal hari
+        \nHey deen dyal hari
+        \n
+        \nTum karta tum hi kaaran
+        \nTum karta tum hi kaaran
+        \nTum karta tum hi kaaran
+        \nHey pram kripal hari
+        \nHey deen dyal hari
+        \nHey krishan gopal hari
+        \nHey deen dyal hari
+        \nHey krishan gopal hari
+        \nHey deen dyal hari
+        \n
+        \nRaath hake ranbhumi mein
+        \nAur karam yog ke maram bataye
+        \nRaath hake ranbhumi mein
+        \nAur karam yog ke maram bataye
+        \nAjar amar hai karam tatv yuh
+        \nKaya ke dukh sukh samzaye
+        \nAjar amar hai karam tatv yuh
+        \nKaya ke dukh sukh samzaye
+        \n
+        \nSakha sharthi sharnaget ke
+        \nSakha sharthi sharnaget ke
+        \nSakha sharthi sharnaget ke
+        \nSada pritpal hari
+        \nHey deen dyal hari
+        \nHey krishan gopal hari
+        \nHey deen dyal hari
+        \nHey krishan gopal hari
+        \nHey deen dyal hari
+        \n
+        \nShyam ke rang
+        \nMein rang gayi mera
+        \nRaskhan to ras ki khan hue
+        \nShyam ke rang
+        \nMein rang gayi mera
+        \nRaskhan to ras ki khan hue
+        \nJag se aakhe band kari to
+        \nSur das ne dars kiye
+        \nJag se aakhe band kari to
+        \nSur das ne dars kiye
+        \n
+        \nMatr yashoda brij nari ke
+        \nMatr yashoda brij nari ke
+        \nMatr yashoda brij nari ke
+        \nMakhan chor kahe
+        \nHey deen dyal hari
+        \nHey krishan gopal hari
+        \nHey deen dyal hari
+        \nHey krishan gopal hari
+        \nHey deen dyal hari.
+    </string>
+
+    <string name="krishna_kanha_bhajan">
+        \nKrishna Kanha Mukunda Manohara (2)
+        \nAnanda Kanda Ghanshyam Sundara
+        \nKrishna Kan . . . (2)
+        \n
+        \nMan Mohana Muralidhara (2)
+        \nNatavara Giridhara Gopala
+        \nKrishna Kan . . .
+        \n
+        \nJagadeeswara Karunakara (2)
+        \nKeshava Madhava Gopala
+        \nKrishna Kan . . .
+        \n
+        \nRavilochana Bhavlochana
+        \nSawara Sundara Gopala
+        \nKrishna Kan . . .
+    </string>
+
+    <string name="gopala_gopala_bhajan">
+        \nGopala Gopala Shyam Gopala (2)
+        \nMurali Gaan Lola Gopi Gopala (2)
+        \n
+        \nGopala Gopala Shyam Gopala
+        \nMurali Gaan Lola Gopi Gopala
+        \n
+        \nO Devaki Nandana Sundara Venu Gopala (2)
+        \nO Radhe Radhe Radhe Radhe Radhe Gopala (2)
+        \n
+        \nGopala Gopala Shyam Gopala
+        \nMurali Gaan Lola Gopi Gopala
+        \n
+        \nO Devaki Nandana Sundara Venu Gopala (2)
+        \nRadhe Radhe Radhe Radhe Radhe Gopala (2)
+        \n
+        \nGopala Gopala Shyam Gopala
+        \nMurali Gaan Lola Gopi Gopala
+        \n
+        \nKrishna Govinda Govinda Gopala (4)
+        \nJaya Murali Manohara Nandalala (2)
+        \n
+        \nKrishna Govinda Govinda Gopala (4)
+        \nJaya Murali Manohara Nandalala (2)
+        \n
+        \nKrishna Govinda Govinda Gopala (8)
+    </string>
+
+    <string name="shri_ram_stuti_bhajan">
+        \n॥ Doha ॥
+        \nShri Ramachandra Kripalu Bhajuman, Harana Bhavabhaya Daarunam।
+        \nNavakanja Lochana Kanja Mukhakara, Kanja Pada Kanjaarunam॥1॥
+        \n
+        \nKandarpa Aganita Amita Chhav Nava, Neela Neerara Sundaram।
+        \nPatapita Maanahum Tadita Ruchi Shuchi ,Navmi Janaka Sutaavaram॥2॥
+        \n
+        \nBhaju Deena Bandhu Dinesh Daanav, Daityavansha Nikandanam।
+        \nRaghunanda Aananda Kanda Kaushala, Chanda Dasharatha Nandanam॥3॥
+        \n
+        \nSira Mukuta Kundala Tilaka Chaaru, Udaaru Anga Vibhooshanam।
+        \nAajaanu Bhuja Shara Chaapadhara, Sangraama-jita-khara Dooshanam॥4॥
+        \n
+        \nIti Vadati Tulsidas Shankar, Shesha Muni Manaranjanam।
+        \nMama Hridayakanja Nivaas Kuru, Kaamaadi Khaladal Ganjanam॥5॥
+        \n
+        \nManu Jaahin Raacheu Milihi so Baru , Sahaja Sundara Saanvaro।
+        \nKaruna Nidhaan Sujaan Seelu, Sanehu Jaanat Raavaro॥6॥
+        \n
+        \nEhi Bhaanti Gauri Asees Suni Siya, Sahita Hiyan Harashi Ali।
+        \nTulsi Bhavaanihi Pooji Puni Puni, Mudit Man Mandir Chalee॥7॥
+        \n
+        \n॥ Sortha ॥
+        \nJaani Gauri Anukool, Siya Hiya Harashu Na Jaaye Kaheen।
+        \nManjula Mangala Moola , Baam Anga Pharkana Lage।
+    </string>
+
+    <string name="hari_om_tat_sat_bhajan">
+        \nOm Satchitananda Parabrahma
+        \nPurushothama Paramatma
+        \nSri Bhagavati Sametha
+        \nSri Bhagavate Namaha
+        \nHari Om Tat Sat
+    </string>
+
+    <string name="krishnashtakham_bhajan">
+        \nVasudeva Sutam Devam Kansa Chanura Mardanam।
+        \nDevaki Paramanandam Krishnam Vande Jagadgurum॥1॥
+        \n
+        \nAtasi Pushpa Sankasham Hara Nupura Shobhitam।
+        \nRatna Kankana Keyuram Krishnam Vande Jagadgurum॥2॥
+        \n
+        \nKutilalaka Samyuktam Purnachandra Nibhananam।
+        \nVilasat Kundaladharam Krishnam Vande Jagadgurum॥3॥
+        \n
+        \nMandara Gandha Samyuktam Charuhasam Chaturbhujam।
+        \nBarhi Pinchhava Chudangam Krishnam Vande Jagadgurum॥4॥
+        \n
+        \nUtphulla Padmapatraksham Nila Jimuta Sannibham।
+        \nYadavanam Shiroratnam Krishnam Vande Jagadgurum॥5॥
+        \n
+        \nRukmini Keli Samyuktam Pitambara Sushobhitam।
+        \nAvapta Tulasi Gandham Krishnam Vande Jagadgurum॥6॥
+        \n
+        \nGopikanam Kuchadvandva Kumkumankita Vakshasam।
+        \nShriniketam Maheshvasam Krishnam Vande Jagadgurum॥7॥
+        \n
+        \nShrivatsankam Mahoraskam Vanamala Virajitam।
+        \nShankhachakradharam Devam Krishnam Vande Jagadgurum॥8॥
+        \n
+        \nKrishnashtaka Midam Punyam Pratarutthaya Yah Pathet।
+        \nKotijanma Kritam Papam Smaranena Vinashyati॥
+    </string>
+
+    <string name="jape_ja_radhe_radhe_bhajan">
+        \n(English lyrics not available)\n
+        \nजय राधे राधे, राधे राधे
+        \nजय राधे राधे, राधे राधे
+        \n
+        \nवृन्दावन धाम अपार, जपे जा राधे राधे,
+        \nराधे सब वेदन को सार, जपे जा राधे राधे।
+        \nजपे जा राधे राधे, भजे जा राधे राधे.
+        \nराधा अलबेली सरकार, जपे जा राधे राधे॥
+        \n
+        \nजो राधा राधा गावे, वो प्रेम पदार्थ पावे।
+        \nवाको है जावे बेडा पार, जपे जा राधे राधे॥
+        \n
+        \nवृन्दावन में राधे राधे, यमुना तट पे, राधे राधे…
+        \nजय राधे राधे, राधे राधे…
+        \n
+        \nजो राधा राधा नाम ना तो, रसराज बिचारो रोते।
+        \nनहीं होतो कृष्ण अवतार, जपे जा राधे राधे॥
+        \n
+        \nबंसिवत पे राधे राधे, श्री निधिबन में राधे राधे…
+        \nजय राधे राधे, राधे राधे…
+        \n
+        \nयह वृन्दावन की लीला, मत जानो गुड को चीला।
+        \nयामे ऋषि मुनि गए हार, जपे जा राधे राधे॥
+        \n
+        \nदान गली में राधे, मान गली में राधे राधे
+        \nजय राधे राधे, राधे राधे…
+        \n
+        \nतू वृन्दाव में आयो, तैने राधा नाम ना गायो।
+        \nतेरा जीवन है धिक्कार, जपे जा राधे राधे॥
+        \n
+        \nयह वृज की अजब कहानी, यहाँ घट घट राधा रानी।
+        \nराधे ही कृष्ण मुरार, जपे जा राधे राधे॥
+    </string>
+
+    <string name="goverdhan_ko_jao_bhajan">
+        \n(English lyrics not available)\n
+        \nमैं तो गोवेर्धन को जाऊ मेरी वीर,
+        \nनाही माने मेरो मनवा,
+        \n
+        \nसात सेर की करी कड़िया
+        \nमैं पेड़े पट पर खाऊ मेरो वीर
+        \nनाही माने…
+        \n
+        \nसात कोस की दे परिक्रमा,
+        \nमैं तो मानसी गंगा नहाऊ मेरी वीर,
+        \nनाही माने…
+        \n
+        \nचकलेश्वर में संत बहुत है,
+        \nसंतन नोत जमाऊं मेरो वीर
+        \nनाही माने…
+        \n
+        \nसिंगी सेली पहन गले में
+        \nमैं तो घर घर अलख जगाउ मेरो वीर
+        \nनाही माने…
+        \n
+        \nवृन्दावन की कुञ्ज गलिन में
+        \nमैं तो गोविन्द गुण गाऊ मेरो वीर
+        \nनाही माने…
+    </string>
+
+    <string name="krishna_naam_ke_heere_moti_bhajan">
+        \n(English lyrics not available)\n
+        \nराम नाम के हीरे मोती, मैं बिखराऊँ गली गली।
+        \nकृष्ण नाम के हीरे मोती, मैं बिखराऊँ गली गली।
+        \n
+        \nले लो रे कोई राम का प्यारा, शोर मचाऊँ गली गली।
+        \nले लो रे कोई श्याम का प्यारा, शोर मचाऊँ गली गली।
+        \n
+        \nमाया के दीवानों सुन लो, एक दिन ऐसा आएगा।
+        \nधन दौलत और माल खजाना, यही पड़ा रह जायेगा।
+        \nसुन्दर काया मिट्टी होगी, चर्चा होगी गली गली॥
+        \nबोलो राम बोलो राम, बोलो राम राम राम।
+        \n
+        \nले लो रे कोई राम का प्यारा, शोर मचाऊँ गली गली।
+        \nले लो रे कोई श्याम का प्यारा, शोर मचाऊँ गली गली।
+        \n॥ राम नाम के हीरे मोती…॥
+        \n
+        \nक्यों करता तू मेरा मेरी, यह तो तेरा मकान नहीं।
+        \nझूठे जन में फंसा हुआ है, वह सच्चा इंसान नहीं।
+        \nजग का मेला दो दिन का है, अंत में होगी चला चली॥
+        \n
+        \nले लो रे कोई राम का प्यारा, शोर मचाऊँ गली गली।
+        \nले लो रे कोई श्याम का प्यारा, शोर मचाऊँ गली गली।
+        \n॥ राम नाम के हीरे मोती…॥
+        \n
+        \nजिन जिन ने यह मोती लुटे, वह तो माला माल हुए।
+        \nधन दौलत के बने पुजारी, आखिर वह कंगाल हुए।
+        \nचांदी सोने वालो सुन लो, बात सुनाऊँ खरी खरी॥
+        \nबोलो राम बोलो राम, बोलो राम राम राम।
+        \n
+        \nले लो रे कोई राम का प्यारा, शोर मचाऊँ गली गली।
+        \nले लो रे कोई श्याम का प्यारा, शोर मचाऊँ गली गली।
+        \n॥ राम नाम के हीरे मोती…॥
+        \n
+        \nदुनिया को तू कब तक पगले, अपनी कहलायेगा।
+        \nईश्वर को तू भूल गया है, अंत समय पछतायेगा।
+        \nदो दिन का यह चमन खिला है, फिर मुरझाये कलि कलि॥
+        \nबोलो राम बोलो राम, बोलो राम राम राम।
+        \n
+        \nराम नाम के हीरे मोती, मैं बिखराऊँ गली गली।
+        \nकृष्ण नाम के हीरे मोती, मैं बिखराऊँ गली गली।
+        \n
+        \nले लो रे कोई राम का प्यारा, शोर मचाऊँ गली गली।
+        \nले लो रे कोई श्याम का प्यारा, शोर मचाऊँ गली गली।
+        \n
+        \nबोलो राम बोलो राम, बोलो राम राम राम।
+        \nबोलो राम बोलो राम, बोलो राम राम राम।
+    </string>
+
+    <string name="kishori_meri_kusum_kali_bhajan">
+        \n(English lyrics not available)\n
+        \nमेरो कान्हा गुलाब को फूल,
+        \nकिशोरी मेरी कुसुम कली,
+        \n
+        \nकान्हा मेरो नन्द जू को छोना ॥
+        \nराधे मेरी बृषभानु लली,
+        \nकिशोरी मेरी कुसुम कली
+        \n
+        \nकान्हा खेले नन्द जू के अँगना ॥
+        \nबाबा जी के अंगना ॥
+        \nकान्हा खेले नन्द जू के अँगना ॥
+        \nराधे खेले रंगीली गली ,
+        \nकिशोरी मेरी कुसुम कली
+        \n
+        \nब्रिज निधि दर्शन की प्यासी,
+        \nवो तो भटके गली गली,
+        \nकिशोरी मेरी कुसुम कली
+        \n
+        \nराधे राधे राधे राधे राधे राधे राधे
+    </string>
+
+    <string name="mere_shyam_murli_wale_bhajan">
+        \n(English lyrics not available)\n
+        \nमुझे चरणों से लगाले मेरे श्याम मुरली वाले।
+        \nमेरी स्वास स्वास में तेरा है नाम मुरली वाले॥
+        \n
+        \nभक्तो की तुमने काहना विपदा है टारी,
+        \nमेरी भी बाह थामो आ के बिहारी।
+        \nबिगड़े बनाए तुमने हर काम मुरली वाले॥
+        \n
+        \nपतझड़ है मेरा जीवन, बन के बहार आजा,
+        \nसुन ले पुकार काहना बस एक बार आजा।
+        \nबैचैन मन के तुम्ही आराम मुरली वाले॥
+        \n
+        \nतुम हो दया के सागर, जनमों की मैं हूँ प्यासी,
+        \nदे दो जगह मुझे भी चरणों में बस ज़रा सी।
+        \nसुबह तुम्ही हो, तुम्ही ही मेरी श्याम मुरली वाले॥
+    </string>
+
+    <string name="bankey_bihari_ji_ki_aarti_bhajan">
+        \n(English lyrics not available)\n
+        \nश्री बांके बिहारी तेरी आरती गाऊं,
+        \nहे गिरिधर तेरी आरती गाऊं।
+        \nआरती गाऊं प्यारे आपको रिझाऊं,
+        \nश्याम सुन्दर तेरी आरती गाऊं।
+        \nबाल कृष्ण तेरी आरती गाऊं॥
+        \n
+        \nमोर मुकुट प्यारे शीश पे सोहे।
+        \nप्यारी बंसी मेरो मन मोहे।
+        \nदेख छवि बलिहारी मैं जाऊं।
+        \nश्री बांके बिहारी तेरी आरती गाऊं॥
+        \n
+        \nचरणों से निकली गंगा प्यारी,
+        \nजिसने सारी दुनिया तारी।
+        \nमैं उन चरणों के दर्शन पाऊं।
+        \nश्री बांके बिहारी तेरी आरती गाऊं॥
+        \n
+        \nदास अनाथ के नाथ आप हो।
+        \nदुःख सुख जीवन प्यारे साथ आप हो।
+        \nहरी चरणों में शीश झुकाऊं।
+        \nश्री बांके बिहारी तेरी आरती गाऊं॥
+        \n
+        \nश्री हरीदास के प्यारे तुम हो।
+        \nमेरे मोहन जीवन धन हो।
+        \nदेख युगल छवि बलि बलि जाऊं।
+        \nश्री बांके बिहारी तेरी आरती गाऊं॥
+    </string>
+
+    <string name="radhika_gori_se_bhajan">
+        \nRadhika Gori Se, Biraj Ki Chhori Se
+        \nMaiya Karade Mero Byah
+        \nUmar Teri Chhoti Hai, Nazar Teri Khoti Hai
+        \nKaise Karadu Tero Byah
+        \n
+        \nJo Nahi Byah Karaye, Teri Gaiya Nahi Charau
+        \nAaj Ki Baad Meri Maiya, Teri Dehali Par Na Aau
+        \nAayega, Re Mazza, Re Mazza, Ab Jeet Haar Ka
+        \nRadhika Gori Se, Biraj Ki Chhori Se
+        \nMaiya Karade Mero Byah
+        \nUmar Teri Chhoti Hai, Nazar Teri Khoti Hai
+        \nKaise Karadu Tero Byah
+        \n
+        \nChandan Ki Chowki Par, Maiya Tujhko Bithaun
+        \nAapni Radha Se Me, Charan Tere Dabwaaun
+        \nBhojan Mai, Banwaunga, Banwaunga, Chapaan Prakar Ke
+        \nRadhika Gori Se, Biraj Ki Chhori Se
+        \nMaiya Karade Mero Byah
+        \nUmar Teri Chhoti Hai, Nazar Teri Khoti Hai
+        \nKaise Karadu Tero Byah
+        \n
+        \nChhoti Si Dulhaniya, Jab Angana Me Dolegi
+        \nTere Samne Maiya, Wo Ghunghat Na Kholegi
+        \nDaau Se, Ja Kaho, Ja Kaho, Bethenge Dawar Pe
+        \nRadhika Gori Se, Biraj Ki Chhori Se
+        \nMaiya Karade Mero Byah
+        \nUmar Teri Chhoti Hai, Nazar Teri Khoti Hai
+        \nKaise Karadu Tero Byah
+        \n
+        \nSun Baate Kanha Ki, Maiya Bethi Muskayen
+        \nLeke Balaiyan Maiya, Hiwade Se Apne Lagaaye
+        \nNazar Kahi, Lag Jaye Na, Lag Jaye Na, Mere Lal Ko
+        \nRadhika Gori Se, Biraj Ki Chhori Se
+        \nMaiya Karade Mero Byah
+        \nUmar Teri Chhoti Hai, Nazar Teri Khoti Hai
+        \nKaise Karadu Tero Byah
+        \n
+        \nRadhika Gori Se, Biraj Ki Chhori Se
+        \nKanha Karadu Tero Biyah
+    </string>
+
+    <string name="mera_aapki_kripa_se_bhajan">
+        \nMera Aapkee Kripa Se, Sab Kaam Ho Raha Hai.
+        \nKarate Ho Tum Kanhaiya, Mera Naam Ho Raha Hai.
+        \n
+        \nPatavaar Ke Bina Hee, Meree Naav Chal Rahee Hai.
+        \nHairaan Hai Zamaana, Manjil Bhee Mil Rahee Hai.
+        \nKarata Nahin Main Kuchh Bhee, Sab Kaam Ho Raha Hai.
+        \n
+        \nTum Saath Ho Jo Mere, Kis Cheej Kee Kamee Hai.
+        \nKisee Aur Cheej Kee, Ab Darakaar Hee Nahin Hai.
+        \nTere Saath Se Gulaam, Ab Gulaphaam Ho Raha Hai.
+        \n
+        \nMain To Nahin Hoon Kaabil, Tera Paar Kaise Paoon.
+        \nTootee Huyee Vaanee Se, Gunagaan Kaise Gaoon.
+        \nTeree Prerana Se Hee, Sab Ye Kamaal Ho Raha Hain.
+        \n
+        \nMujhe Har Kadam Kadam Par, Toone Diya Sahaara.
+        \nMeree Zindagee Badal Dee, Toone Karake Ek Ishaara.
+        \nEhasaan Pe Tera Ye, Ehasaan Ho Raha Hai.
+        \n
+        \nToofaan Aandhiyon Mein, Toone Hee Mujhako Thaama.
+        \nTum Krshn Ban Ke Aae, Main Jab Bana Sudaama.
+        \nTere Karam Se Ab Ye, Sareaam Ho Raha Hai.
+    </string>
+
+    <string name="radhe_radhe_radhe_shyam_bhajan">
+        \nRadhe radhe radhe shyam govinda radhe jai shri radhe
+        \nRadhe radhe radhe shyam govinda radhe jai shri radhe
+        \nJai Radhe radhe radhe shyam govinda radhe jai shri radhe
+        \n
+        \nRadhe radhe radhe shyam govinda radhe jai shri radhe
+        \nRadhe radhe radhe shyam govinda radhe jai shri radhe
+        \nRadhe radhe radhe shyam govinda radhe jai shri radhe
+        \ngovinda radhe radhe shyam gopal radhe radhe
+        \ngovinda radhe radhe shyam gopal radhe radhe
+        \ngovinda radhe radhe shyam gopal radhe radhe
+        \ngovinda radhe radhe shyam gopal radhe radhe
+    </string>
+
+    <string name="radha_dhund_rahi_bhajan">
+        \nRadha dhund rhi kisi ne mera shyam dekha (2)
+        \nShyam dekha Ghanshyam dekha (2)
+        \nRadha dhund rhi kisi ne mera shyam dekha (2)
+        \n
+        \nRadha tera shyam hamne mathura main dekha(4)
+        \nAre Banshi bajate hue O radha tera shyam dekha (2)
+        \nRadha dhund rhi kisi ne mera shyam dekha (2)
+        \n
+        \nRadha tera shyam hamne gokul me dekha(4)
+        \nAre Gaiya chrate hue O radha tera shyam dekha (2)
+        \nRadha dhund rhi kisi ne mera shyam dekha (2)
+        \n
+        \nRadha tera shyam hamne vrindavan me dekha (4)
+        \nRaas rachate hue O radha tera shyam dekha (2)
+        \nRadha dhund rhi kisi ne mera shyam dekha (2)
+        \n
+        \nRadha tera shyam hamne jatipura me dekha (2)
+        \nAre Parvat uthate hue O radha tera shyam dekha (2)
+        \nRadha dhund rhi kisi ne mera shyam dekha (2)
+        \n
+        \nRadha tera shyam hamne sarvjagat me dekha (2)
+        \nRadha tera shyam hamne vaishnav jan me dekha (2)
+        \nRadhe Radhe japte hue O radha tera shyam dekha (4)
+        \n(Hare Krishna… Hare Krishna)
+        \nRadhe Radhe radhe japte hue O radha tera shyam dekha (2)
+        \n(Hare Krishna… Hare Krishna)
+        \nRadhe Radhe Radhe radhe Radhe japte hue O radha tera shyam dekha (4)
+        \nRadhe Radhe radhe Radhe radhe Radhe radhe
+    </string>
+
+    <string name="yashoda_ka_nandlala_bhajan">
+        \n(English lyrics not available)\n
+        \nज़ु ज़ु ज़ू ज़ु ज़ू ज़ु ज़ु ज़ु ज़ु ज़ू
+        \nयशोदा का नंदलाला बृज का उजाला है
+        \nमेरे लाल से तो सारा जग झिलमिलाए
+        \nज़ु ज़ु ज़ू ज़ु ज़ू ज़ु ज़ु ज़ु ज़ु ज़ू
+        \nरात ठंडी ठंडी हवा, गा के सुलाए
+        \nभोर गुलाबी पलकें, खोल के जगाए
+        \n
+        \nदो अँखियों में तुझे बसाके
+        \nजाने कब से जागूँ
+        \nतू माँगे तो चाँद भी दे दूँ
+        \nतुझ से कुछ ना माँगूँ
+        \nखोल तू आँखें देख यहाँ हूँ
+        \nऔर नहीं कोई मैं तेरी माँ हूँ, ज़ु ज़ु ज़ू …
+        \nतेरे लिये कैसे कैसे सपने सजाए, मेरे लाल से …
+        \n
+        \nजाने कब ये आती जाती
+        \nसांस कहाँ थम जाए
+        \nदेख मुरझाता फूल टूट के
+        \nडाली से कब गिर जाए
+        \nतू जो मुझे माँ माँ … माँ, रहके बुलाए
+        \nरूह को मेरी चैन आ जाए, ज़ु ज़ु ज़ू …
+        \nसो जाए ऐसे फिर ना जागूँ जगाए, मेरे लाल से …
+    </string>
+
+    <string name="jaya_janardhana_bhajan">
+        \nJaya Janardhana Krishna Radhika Pathe
+        \nJana vimochana Krishna Janma Mochana
+        \nGaruda Vahana Krishna Gopika Pathe
+        \nNayana mohana Krishna Neeajekshana
+        \n
+        \nSujana Bandhava Krishna Sundarakruthe
+        \nMadana Komala Krishna Madhava Hare
+        \nVasumati Pathe Krishna Vasavanuja
+        \nVaraguNakara Krishna Vaishnavakruthe
+        \nSuruchiranana Krishna Shouryavaridhe
+        \nMurahara Vibho Krishna mukthidayaka
+        \nVimalapalaka Krishna Vallabhipathe
+        \nKamalalochana Krishna kamyadayaka
+        \n
+        \nVimalagatrane Krishna Bhaktavatsala
+        \nCharana pallavam Krishna Karuna Komalam
+        \nKuvalaikshaNa Krishna komalaakruthe
+        \ntava padambujam Krishna sharanamashraye
+        \nBhuvana nayaka Krishna pavanakruthe
+        \nGuNagaNojwala Krishna Nalinalochana
+        \nPranayavaridhe Krishna guNagaNakara
+        \ndamasodara Krishna deena vatsala
+        \n
+        \nKamasundara Krishna pahi sarvada
+        \nNarakanashana Krishna Narasahayaka
+        \nDevaki sutha Krishna KaruNyambhude
+        \nKamsanashana Krishna Dwaraksthitha
+        \nPavanatmaka Krishna dehi mangaLam
+        \nTvatpadambujam Krishna Shyama komalam
+        \nBhaktavatsala Krishna Kamyadayaka
+        \nPalisennanu Krishna Srihari namo
+        \n
+        \nBhaktadasa naa Krishna Harasu Nee sada
+        \nKadu ninthena Krishna Salaheya Vibho
+        \nGaruda vahan Krishna Gopika Pathe
+        \nNayana mohana Krishna Neerajekshana
+    </string>
+
+    <string name="my_mantra_new11">Om Shri Sai Nathai Namah</string>
+    <string name="menu_action_language">Language</string>
+    <string name="menu_action_share">Share</string>
+    <string name="lang_dialog_title">Language Selection</string>
+    <string name="lang_dialog_message">Choose a language (More Coming Soon...)</string>
+    <string-array name="language">
+        <item>English</item>
+        <item>Hindi</item>
+    </string-array>
+    <string name="button_offline_bhajans">Offline Bhajans</string>
+    <string name="button_online_bhajans">Online Bhajans</string>
+    <string name="button_rate">Rate</string>
+    <string name="menu_action_settings">Settings</string>
+    <string name="menu_action_about">About</string>
+    <string name="menu_action_about_hanuman">About Radha Krishna</string>
+    <string name="menu_action_contact">Contact Us</string>
+    <string name="bhagavad_gita">More Apps</string>
+    <string name="bhajans">Bhajans</string>
+    <string name="share">Share</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb292077954712589</string>
+
+    <string name="pref_ad_removal_purchased">Ad Removal Purchased</string>
+    <string name="pref_remove_ads_key">adFree</string>
+    <string name="billing_connection_failure" translatable="false">Billing connection not established. Connect to a network and retry.</string>
+    <string name="pref_remove_ads">Remove Ads</string>
+</resources>

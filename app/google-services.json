@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "519807786035",
+    "firebase_url": "https://radha-krishna-2b2ee.firebaseio.com",
+    "project_id": "radha-krishna-2b2ee",
+    "storage_bucket": "radha-krishna-2b2ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519807786035:android:2eaffb22e15270b7",
+        "android_client_info": {
+          "package_name": "com.hanuman.radha.krishna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519807786035-qqoknjr9qugsd8et0vor668bh9out0a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-G6DMW_d3XcjZoVUxfVafA6n4khQEaQU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

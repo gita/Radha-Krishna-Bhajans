@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/radhe"
+    android:alpha="1"
+
+    tools:context="com.hanuman.radha.krishna.MainActivity">
+
+    <ImageView
+        android:id="@+id/tr"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/sharerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tr"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="50dp"
+
+            android:layout_weight="0.5"
+            android:background="@drawable/buttonshape2"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/share"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="normal|bold|italic" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="50dp"
+
+            android:layout_weight="0.5"
+            android:background="@drawable/buttonshape2"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text='@string/button_rate'
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="normal|bold|italic" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="180dp"
+        android:layout_marginBottom="5dp"
+
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape2"
+        android:onClick="buttonClickMantras"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text='@string/button_offline_bhajans'
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="180dp"
+        android:layout_marginBottom="5dp"
+
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape2"
+        android:onClick="buttonClickBhajans"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text='@string/button_online_bhajans'
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="180dp"
+        android:layout_marginBottom="5dp"
+
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnRemoveAds"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape2"
+        android:onClick="buttonBhagavadGita"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text='@string/bhagavad_gita'
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic" />
+
+    <Button
+        android:id="@+id/btnRemoveAds"
+        android:layout_width="180dp"
+        android:layout_marginBottom="5dp"
+
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sharerate"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape2"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text='@string/pref_remove_ads'
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic" />
+
+
+</RelativeLayout>
