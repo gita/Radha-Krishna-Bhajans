@@ -2,6 +2,7 @@ package com.hanuman.radha.krishna;
 
 import android.app.Application;
 
+import com.hanuman.radha.krishna.review.ReviewLifecycleCallback;
 import com.onesignal.OneSignal;
 
 public class ApplicationClass extends Application {
@@ -14,5 +15,9 @@ public class ApplicationClass extends Application {
                 .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
                 .unsubscribeWhenNotificationsAreDisabled(true)
                 .init();
+
+        registerActivityLifecycleCallbacks(new ReviewLifecycleCallback());
     }
 }
+
+
