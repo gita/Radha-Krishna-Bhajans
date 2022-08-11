@@ -182,6 +182,7 @@ public class MainActivity extends AppCompatActivity implements PurchasesUpdatedL
     private void queryPurchases() {
 
         //Method not being used for now, but can be used if purchases ever need to be queried in the future
+
         Purchase.PurchasesResult purchasesResult = mBillingClient.queryPurchases(BillingClient.SkuType.INAPP);
         if (purchasesResult != null) {
             List<Purchase> purchasesList = purchasesResult.getPurchasesList();

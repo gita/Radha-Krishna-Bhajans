@@ -28,14 +28,17 @@ public class BhagavadGita extends AppCompatActivity {
         setContentView(R.layout.activity_bhagavad_gita);
 
         wv = (WebView) findViewById(R.id.wv);
+
+
         wv.getSettings().setJavaScriptEnabled(true);
         wv.setFocusable(true);
         wv.setFocusableInTouchMode(true);
         wv.getSettings().setRenderPriority(WebSettings.RenderPriority.HIGH);
-        wv.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
+//        wv.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
         wv.getSettings().setDomStorageEnabled(true);
         wv.getSettings().setDatabaseEnabled(true);
-        wv.getSettings().setAppCacheEnabled(true);
+        wv.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
+//        wv.getSettings().setAppCacheEnabled(true);
         wv.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
 
         wv.loadUrl("https://bhagavadgita.io");
