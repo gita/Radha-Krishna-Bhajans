@@ -48,8 +48,12 @@
             android:name=".KrishnaBhajan"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Hare Krishna"
+            android:enabled="true"
+            android:exported="true"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden" />
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+
         <activity
             android:name=".KanhaBhajan"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -81,6 +85,9 @@
         <receiver android:name="com.onesignal.UpgradeReceiver"
             android:exported="true"
             tools:node="merge"/>
+
+        <receiver android:name=".classes.NotificationService"/>
+
     </application>
 
 </manifest>

@@ -24,6 +24,7 @@ import com.android.billingclient.api.PurchasesUpdatedListener;
 import com.android.billingclient.api.SkuDetailsParams;
 import com.google.android.gms.ads.MobileAds;
 import com.google.firebase.analytics.FirebaseAnalytics;
+import com.hanuman.radha.krishna.classes.NotifyBuilder;
 import com.onesignal.OneSignal;
 
 import java.util.ArrayList;
@@ -47,6 +48,8 @@ public class MainActivity extends AppCompatActivity implements PurchasesUpdatedL
     private SharedPreferences mSharedPreferences;
 
     private BillingClient mBillingClient;
+
+    private com.hanuman.radha.krishna.classes.NotifyBuilder notifyBuilder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,6 +78,10 @@ public class MainActivity extends AppCompatActivity implements PurchasesUpdatedL
                 .unsubscribeWhenNotificationsAreDisabled(true)
                 .init();
 
+
+        notifyBuilder = new NotifyBuilder(MainActivity.this);
+
+        notifyBuilder.cancel_notification();
 
         // Establish connection to billing client
         mBillingClient = BillingClient.newBuilder(MainActivity.this).setListener(this).enablePendingPurchases().build();

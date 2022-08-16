@@ -1,14 +1,28 @@
 package com.hanuman.radha.krishna.fragments;
 
+import android.app.NotificationManager;
+import android.content.BroadcastReceiver;
+import android.content.ComponentName;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.hanuman.radha.krishna.KrishnaBhajan;
 import com.hanuman.radha.krishna.R;
+import com.hanuman.radha.krishna.classes.MediaStatus;
+import com.hanuman.radha.krishna.classes.NotificationService;
+import com.hanuman.radha.krishna.classes.NotifyBuilder;
+import com.hanuman.radha.krishna.classes.SharedPref;
 
 
 public class MainFragment extends Fragment {
@@ -24,6 +38,12 @@ public class MainFragment extends Fragment {
             shyama_aan_baso_vrindavanBhajan;
 
     private static final String DRAWABLE = "DRAWABLE";
+    private RelativeLayout imageLayout;
+
+    private BroadcastReceiver broadcastReceiver;
+
+    private com.hanuman.radha.krishna.classes.SharedPref sharedPref;
+
 
     public static MainFragment newInstance(int drawableID) {
         MainFragment fragment = new MainFragment();
@@ -39,7 +59,26 @@ public class MainFragment extends Fragment {
         // Inflate the layout for this fragment
 
         View view = inflater.inflate(R.layout.fragment_main, container, false);
+
+
+        enableBroadcastReceiver();
+
+        broadcastReceiver = new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+
+                set_god_img(sharedPref.GET_POSITION());
+
+            }
+        };
+
+        requireActivity().registerReceiver(broadcastReceiver,new IntentFilter("Music"));
+
+        sharedPref = new SharedPref(requireContext());
+
+        imageLayout = (RelativeLayout) view.findViewById(R.id.image_layout);
         mahamantraBhajan = (ImageView) view.findViewById(R.id.mahamantraBhajan);
+
         Glide.with(this)
                 .load(R.drawable.krishna_yashoda_balaram)
                 .into(mahamantraBhajan);
@@ -154,9 +193,43 @@ public class MainFragment extends Fragment {
                 .load(R.drawable.shyama_aan_baso_vrindavan)
                 .into(shyama_aan_baso_vrindavanBhajan);
 
-        
         int godImage = getArguments().getInt(DRAWABLE, 0);
-        
+        set_god_img(godImage);
+
+        return view;
+    }
+
+
+    public void enableBroadcastReceiver()
+    {
+        ComponentName receiver = new ComponentName(requireActivity(), NotificationService.class);
+        PackageManager pm = requireContext().getPackageManager();
+
+        pm.setComponentEnabledSetting(receiver,
+                PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
+                PackageManager.DONT_KILL_APP);
+    }
+
+    @Override
+    public void onDestroy() {
+        requireActivity().unregisterReceiver(broadcastReceiver);
+        disableBroadcastReceiver();
+        super.onDestroy();
+    }
+
+
+
+    public void disableBroadcastReceiver(){
+        ComponentName receiver = new ComponentName(requireActivity(), NotificationService.class);
+        PackageManager pm = requireContext().getPackageManager();
+        pm.setComponentEnabledSetting(receiver,
+                PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
+                PackageManager.DONT_KILL_APP);
+    }
+
+    public void set_god_img(int godImage){
+
+
         switch (godImage) {
 
             case 1:
@@ -232,7 +305,6 @@ public class MainFragment extends Fragment {
                 mahamantraBhajan.setVisibility(View.VISIBLE);
                 break;
         }
-
-        return view;
     }
+
 }

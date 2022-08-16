@@ -72,11 +72,10 @@
     <Button
         android:id="@+id/btn4"
         android:layout_width="180dp"
-        android:layout_marginBottom="5dp"
-
         android:layout_height="wrap_content"
         android:layout_above="@+id/btn1"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/buttonshape2"
         android:onClick="buttonClickMantras"
         android:shadowColor="#A8A8A8"
@@ -91,11 +90,10 @@
     <Button
         android:id="@+id/btn1"
         android:layout_width="180dp"
-        android:layout_marginBottom="5dp"
-
         android:layout_height="wrap_content"
         android:layout_above="@+id/btn3"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/buttonshape2"
         android:onClick="buttonClickBhajans"
         android:shadowColor="#A8A8A8"
@@ -110,11 +108,11 @@
     <Button
         android:id="@+id/btn3"
         android:layout_width="180dp"
-        android:layout_marginBottom="5dp"
-
         android:layout_height="wrap_content"
+
         android:layout_above="@+id/btnRemoveAds"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/buttonshape2"
         android:onClick="buttonBhagavadGita"
         android:shadowColor="#A8A8A8"
@@ -129,11 +127,11 @@
     <Button
         android:id="@+id/btnRemoveAds"
         android:layout_width="180dp"
-        android:layout_marginBottom="5dp"
-
         android:layout_height="wrap_content"
+
         android:layout_above="@+id/sharerate"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/buttonshape2"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"

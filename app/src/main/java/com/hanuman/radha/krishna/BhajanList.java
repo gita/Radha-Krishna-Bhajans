@@ -1,7 +1,11 @@
 package com.hanuman.radha.krishna;
 
+import android.app.NotificationManager;
+import android.content.ComponentName;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
@@ -20,6 +24,7 @@ import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.google.firebase.analytics.FirebaseAnalytics;
+import com.hanuman.radha.krishna.classes.NotificationService;
 
 /**
  * RadhaKrishna
@@ -35,6 +40,8 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
     private static final String RADHA = "C302756BCFE01E68DED07FA309375005";
     private static final String KRISHNA = "57F6141E3D949BD28C1E6144AE70F72E";
     private SharedPreferences mSharedPreferences;
+    private final String CHANNEL_ID = "channel1";
+
 
     String[] itemname = {
             "Radhe Radhe Barsane Wali Radhe\nराधे राधे बरसाने वाली राधे",
@@ -152,6 +159,34 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
 
         loadInterstitial();
 
+        enableBroadcastReceiver();
+
+
+    }
+
+    @Override
+    protected void onDestroy() {
+        disableBroadcastReceiver();
+        super.onDestroy();
+    }
+
+    public void disableBroadcastReceiver(){
+        ComponentName receiver = new ComponentName(this, NotificationService.class);
+        PackageManager pm = this.getPackageManager();
+        pm.setComponentEnabledSetting(receiver,
+                PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
+                PackageManager.DONT_KILL_APP);
+    }
+
+//    private void cancel_notification(){
+//        NotificationManager manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+//        manager.cancelAll();
+//    }
+
+    @Override
+    protected void onResume() {
+//        cancel_notification();
+        super.onResume();
     }
 
     private void loadInterstitial(){
@@ -207,6 +242,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "barsane_wali_radhe_bhajan");
                 intent.putExtra("mantra_name", "Radhe Radhe Barsane Wali Radhe");
                 intent.putExtra("image_id", 14);
+                intent.putExtra("track_number", 0);
                 startActivity(intent);
 
                 break;
@@ -216,6 +252,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "maiya_mori_bhajan");
                 intent.putExtra("mantra_name", "Maiya Mori Main Nahi Maakhan Khayo");
                 intent.putExtra("image_id", 1);
+                intent.putExtra("track_number", 1);
                 startActivity(intent);
 
                 break;
@@ -225,6 +262,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "aisi_lagi_lagan_bhajan");
                 intent.putExtra("mantra_name", "Aisi Lagi Lagan");
                 intent.putExtra("image_id", 2);
+                intent.putExtra("track_number", 2);
                 startActivity(intent);
 
                 break;
@@ -234,6 +272,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "o_palanhaare_bhajan");
                 intent.putExtra("mantra_name", "O Palanhaare");
                 intent.putExtra("image_id", 3);
+                intent.putExtra("track_number", 3);
                 startActivity(intent);
 
                 break;
@@ -243,6 +282,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "aarti_kunj_bihari_bhajan");
                 intent.putExtra("mantra_name", "Aarti Kunj Bihari Ki");
                 intent.putExtra("image_id", 4);
+                intent.putExtra("track_number", 4);
                 startActivity(intent);
 
                 break;
@@ -252,6 +292,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "bada_natkhat_bhajan");
                 intent.putExtra("mantra_name", "Bada Natkhat Hai Krishna");
                 intent.putExtra("image_id", 5);
+                intent.putExtra("track_number", 5);
                 startActivity(intent);
 
                 break;
@@ -261,6 +302,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "achyutashtakam_bhajan");
                 intent.putExtra("mantra_name", "Achyuta Ashtakam");
                 intent.putExtra("image_id", 6);
+                intent.putExtra("track_number", 6);
                 startActivity(intent);
 
                 break;
@@ -270,6 +312,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "yashomati_bhajan");
                 intent.putExtra("mantra_name", "Yashomati Maiya Se Bole Nandlala");
                 intent.putExtra("image_id", 7);
+                intent.putExtra("track_number", 7);
                 startActivity(intent);
 
                 break;
@@ -279,6 +322,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "shri_hari_stotram_bhajan");
                 intent.putExtra("mantra_name", "Shri Hari Stotram");
                 intent.putExtra("image_id", 8);
+                intent.putExtra("track_number", 8);
                 startActivity(intent);
                 break;
             case 9:
@@ -287,6 +331,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "achyutam_keshavam_bhajan");
                 intent.putExtra("mantra_name", "Achyutam Keshavam");
                 intent.putExtra("image_id", 9);
+                intent.putExtra("track_number", 9);
                 startActivity(intent);
 
                 break;
@@ -297,6 +342,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "vishnu_shatanama_bhajan");
                 intent.putExtra("mantra_name", "Vishnu Shatanama Stotram");
                 intent.putExtra("image_id", 10);
+                intent.putExtra("track_number", 10);
                 startActivity(intent);
 
                 break;
@@ -307,6 +353,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "jai_radha_madhav_bhajan");
                 intent.putExtra("mantra_name", "Jai Radha Madhav");
                 intent.putExtra("image_id", 11);
+                intent.putExtra("track_number", 11);
                 startActivity(intent);
 
                 break;
@@ -317,6 +364,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "radhe_radhe_govind_bhajan");
                 intent.putExtra("mantra_name", "Radhe Radhe Govind Gopal Radhe");
                 intent.putExtra("image_id", 12);
+                intent.putExtra("track_number", 12);
                 startActivity(intent);
 
                 break;
@@ -327,6 +375,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "radhe_krishna_radhe_shyam_bhajan");
                 intent.putExtra("mantra_name", "Radhe Krishna Radhe Shyam");
                 intent.putExtra("image_id", 13);
+                intent.putExtra("track_number", 13);
                 startActivity(intent);
 
                 break;
@@ -338,6 +387,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "shri_krishna_govind_hare_murari_bhajan");
                 intent.putExtra("mantra_name", "Shri Krishna Govind Hare Murari");
                 intent.putExtra("image_id", 14);
+                intent.putExtra("track_number", 14);
                 startActivity(intent);
                 break;
 
@@ -347,6 +397,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "shyam_teri_bansi_pukare_radha_naam_bhajan");
                 intent.putExtra("mantra_name", "Shyam Teri Bansi");
                 intent.putExtra("image_id", 15);
+                intent.putExtra("track_number", 15);
                 startActivity(intent);
                 break;
 
@@ -356,6 +407,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "kishori_kuch_aisa_intzam_ho_krishna_bhajan");
                 intent.putExtra("mantra_name", "Kishori Kuch Aisa Intejam Ho Jaye");
                 intent.putExtra("image_id", 16);
+                intent.putExtra("track_number", 16);
                 startActivity(intent);
                 break;
 
@@ -365,6 +417,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "radha_sahastra_naam_bhajan");
                 intent.putExtra("mantra_name", "Shri Radha Sahastra Naam Yatra");
                 intent.putExtra("image_id", 17);
+                intent.putExtra("track_number", 17);
                 startActivity(intent);
                 break;
 
@@ -374,6 +427,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "govinda_krishna_hari_om_bhajan");
                 intent.putExtra("mantra_name", "Govinda Krishna Hari Om");
                 intent.putExtra("image_id", 18);
+                intent.putExtra("track_number", 18);
                 startActivity(intent);
                 break;
 
@@ -383,6 +437,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "govind_bolo_hari_gopal_bolo_bhajan");
                 intent.putExtra("mantra_name", "Govind Bolo Hari Gopal Bolo");
                 intent.putExtra("image_id", 14);
+                intent.putExtra("track_number", 19);
                 startActivity(intent);
                 break;
 
@@ -392,6 +447,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "madhurashtakam_bhajan");
                 intent.putExtra("mantra_name", "Madhurashtakam");
                 intent.putExtra("image_id", 19);
+                intent.putExtra("track_number", 20);
                 startActivity(intent);
                 break;
 
@@ -401,6 +457,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "shyam_chudi_bechne_bhajan");
                 intent.putExtra("mantra_name", "Shyam Chudi Bechne Aaya");
                 intent.putExtra("image_id", 20);
+                intent.putExtra("track_number", 21);
                 startActivity(intent);
                 break;
 
@@ -410,6 +467,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "nand_ke_anand_bhayo_bhajan");
                 intent.putExtra("mantra_name", "Nand Ke Anand Bhayo");
                 intent.putExtra("image_id", 21);
+                intent.putExtra("track_number", 22);
                 startActivity(intent);
                 break;
 
@@ -419,6 +477,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "hey_krishna_gopal_hari_bhajan");
                 intent.putExtra("mantra_name", "Hey Krishna Gopal Hari");
                 intent.putExtra("image_id", 22);
+                intent.putExtra("track_number", 23);
                 startActivity(intent);
                 break;
 
@@ -428,6 +487,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "krishna_kanha_bhajan");
                 intent.putExtra("mantra_name", "Krishna Kanha");
                 intent.putExtra("image_id", 23);
+                intent.putExtra("track_number", 24);
                 startActivity(intent);
                 break;
 
@@ -437,6 +497,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "gopala_gopala_bhajan");
                 intent.putExtra("mantra_name", "Gopala Gopala");
                 intent.putExtra("image_id", 24);
+                intent.putExtra("track_number", 25);
                 startActivity(intent);
                 break;
 
@@ -446,6 +507,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "shri_ram_stuti_bhajan");
                 intent.putExtra("mantra_name", "Shri Ram Stuti");
                 intent.putExtra("image_id", 19);
+                intent.putExtra("track_number", 26);
                 startActivity(intent);
                 break;
 
@@ -455,6 +517,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "hari_om_tat_sat_bhajan");
                 intent.putExtra("mantra_name", "Hari Om Tat Sat");
                 intent.putExtra("image_id", 9);
+                intent.putExtra("track_number", 27);
                 startActivity(intent);
                 break;
 
@@ -464,6 +527,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "krishnashtakham_bhajan");
                 intent.putExtra("mantra_name", "Krishna Ashtakam");
                 intent.putExtra("image_id", 10);
+                intent.putExtra("track_number", 28);
                 startActivity(intent);
                 break;
 
@@ -473,6 +537,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "jape_ja_radhe_radhe_bhajan");
                 intent.putExtra("mantra_name", "Jape Ja Radhe Radhe");
                 intent.putExtra("image_id", 14);
+                intent.putExtra("track_number", 29);
                 startActivity(intent);
                 break;
 
@@ -482,6 +547,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "goverdhan_ko_jao_bhajan");
                 intent.putExtra("mantra_name", "Goverdhan Ko Jao");
                 intent.putExtra("image_id", 23);
+                intent.putExtra("track_number", 30);
                 startActivity(intent);
                 break;
 
@@ -491,6 +557,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "krishna_naam_ke_heere_moti_bhajan");
                 intent.putExtra("mantra_name", "Krishna Naam Ke Heere Moti");
                 intent.putExtra("image_id", 5);
+                intent.putExtra("track_number", 31);
                 startActivity(intent);
                 break;
 
@@ -500,6 +567,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "kishori_meri_kusum_kali_bhajan");
                 intent.putExtra("mantra_name", "Kishori Meri Kusum Kali");
                 intent.putExtra("image_id", 3);
+                intent.putExtra("track_number", 32);
                 startActivity(intent);
                 break;
 
@@ -509,6 +577,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "mere_shyam_murli_wale_bhajan");
                 intent.putExtra("mantra_name", "Mere Shyam Murli Wale");
                 intent.putExtra("image_id", 13);
+                intent.putExtra("track_number", 33);
                 startActivity(intent);
                 break;
 
@@ -518,6 +587,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "bankey_bihari_ji_ki_aarti_bhajan");
                 intent.putExtra("mantra_name", "Bankey Bihari Ji Ki Aarti");
                 intent.putExtra("image_id", 4);
+                intent.putExtra("track_number", 34);
                 startActivity(intent);
                 break;
 
@@ -527,6 +597,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "radhika_gori_se_bhajan");
                 intent.putExtra("mantra_name", "Radhika Gori Se");
                 intent.putExtra("image_id", 16);
+                intent.putExtra("track_number", 35);
                 startActivity(intent);
                 break;
 
@@ -536,6 +607,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "mera_aapki_kripa_se_bhajan");
                 intent.putExtra("mantra_name", "Mera Aapki Kripa Se");
                 intent.putExtra("image_id", 15);
+                intent.putExtra("track_number", 36);
                 startActivity(intent);
                 break;
 
@@ -545,6 +617,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "radhe_radhe_radhe_shyam_bhajan");
                 intent.putExtra("mantra_name", "Radhe Radhe Radhe Shyam");
                 intent.putExtra("image_id", 17);
+                intent.putExtra("track_number", 37);
                 startActivity(intent);
                 break;
 
@@ -554,6 +627,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "radha_dhund_rahi_bhajan");
                 intent.putExtra("mantra_name", "Radha Dhund Rahi");
                 intent.putExtra("image_id", 21);
+                intent.putExtra("track_number", 38);
                 startActivity(intent);
                 break;
 
@@ -563,6 +637,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "yashoda_ka_nandlala_bhajan");
                 intent.putExtra("mantra_name", "Yashoda Ka Nandlala");
                 intent.putExtra("image_id", 1);
+                intent.putExtra("track_number", 39);
                 startActivity(intent);
                 break;
 
@@ -572,6 +647,7 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "jaya_janardhana_bhajan");
                 intent.putExtra("mantra_name", "Jaya Janardhana");
                 intent.putExtra("image_id", 4);
+                intent.putExtra("track_number", 40);
                 startActivity(intent);
                 break;
 
@@ -582,10 +658,21 @@ public class BhajanList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "barsane_wali_radhe_bhajan");
                 intent.putExtra("mantra_name", "Radhe Radhe Barsane Wali Radhe");
                 intent.putExtra("image_id", 18);
+                intent.putExtra("track_number", 18);
                 startActivity(intent);
 
                 break;
         }
+    }
+
+    public void enableBroadcastReceiver()
+    {
+        ComponentName receiver = new ComponentName(this, NotificationService.class);
+        PackageManager pm = this.getPackageManager();
+
+        pm.setComponentEnabledSetting(receiver,
+                PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
+                PackageManager.DONT_KILL_APP);
     }
 
     @Override

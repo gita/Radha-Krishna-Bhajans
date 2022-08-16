@@ -1,7 +1,12 @@
 package com.hanuman.radha.krishna;
 
+import android.app.NotificationManager;
+import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
@@ -11,6 +16,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -19,12 +25,21 @@ import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.google.firebase.analytics.FirebaseAnalytics;
+import com.hanuman.radha.krishna.classes.NotificationService;
+
+import java.util.ArrayList;
 
 /**
  * RadhaKrishna
  */
 
 public class MantraList extends AppCompatActivity implements AdapterView.OnItemClickListener, SharedPreferences.OnSharedPreferenceChangeListener {
+
+
+    ArrayList<String> filename_list = new ArrayList<>();
+    ArrayList<String> mantra_list = new ArrayList<>();
+    ArrayList<String> mantra_name_list = new ArrayList<>();
+    ArrayList<Integer> image_id_list = new ArrayList<>();
 
     ListView list;
     private FirebaseAnalytics mFirebaseAnalytics;
@@ -34,6 +49,8 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
     private static final String RADHA = "C302756BCFE01E68DED07FA309375005";
     private static final String KRISHNA = "57F6141E3D949BD28C1E6144AE70F72E";
     private SharedPreferences mSharedPreferences;
+
+    private final String CHANNEL_ID = "channel1";
 
     String[] itemname = {
             "Hare Krishna Hare Rama Mahamantra\nहरे कृष्णा हरे रामा महामंत्र",
@@ -92,6 +109,8 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
      */
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -115,6 +134,10 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
         list.setOnItemClickListener(this);
 
         loadInterstitial();
+
+        enableBroadcastReceiver();
+
+//        cancel_notification();
 
     }
 
@@ -153,6 +176,44 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
         }
     }
 
+
+//    private void cancel_notification(){
+//        NotificationManager manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+//            manager.deleteNotificationChannel(CHANNEL_ID);
+//        }
+//        manager.cancelAll();
+//    }
+
+    @Override
+    protected void onDestroy() {
+        disableBroadcastReceiver();
+        super.onDestroy();
+    }
+
+
+    public void enableBroadcastReceiver(){
+        ComponentName receiver = new ComponentName(this, NotificationService.class);
+        PackageManager pm = this.getPackageManager();
+        pm.setComponentEnabledSetting(receiver,
+                PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
+                PackageManager.DONT_KILL_APP);
+    }
+
+    public void disableBroadcastReceiver(){
+        ComponentName receiver = new ComponentName(this, NotificationService.class);
+        PackageManager pm = this.getPackageManager();
+        pm.setComponentEnabledSetting(receiver,
+                PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
+                PackageManager.DONT_KILL_APP);
+    }
+
+    @Override
+    protected void onResume() {
+//        cancel_notification();
+        super.onResume();
+    }
+
     @Override
     public void onItemClick(AdapterView<?> l, View v, int position, long id) {
 
@@ -161,6 +222,8 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
         } else {
             Log.d("TAG", "The interstitial wasn't loaded yet.");
         }
+
+
 
         Intent intent = new Intent();
 
@@ -171,7 +234,7 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "mahamantra_bhajan");
                 intent.putExtra("mantra_name", "Hare Krishna Hare Rama");
                 intent.putExtra("image_id", 1);
-
+                intent.putExtra("track_number", 0);
                 startActivity(intent);
 
                 break;
@@ -181,6 +244,7 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "maiya_mori_bhajan");
                 intent.putExtra("mantra_name", "Maiya Mori Main Nahi Maakhan Khayo");
                 intent.putExtra("image_id", 2);
+                intent.putExtra("track_number", 1);
                 startActivity(intent);
 
                 break;
@@ -190,6 +254,7 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "govind_mero_bhajan");
                 intent.putExtra("mantra_name", "Govind Mero Hai Gopal Mero Hai");
                 intent.putExtra("image_id", 3);
+                intent.putExtra("track_number", 2);
                 startActivity(intent);
 
                 break;
@@ -199,6 +264,7 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "om_mantra_bhajan");
                 intent.putExtra("mantra_name", "Om Mantra");
                 intent.putExtra("image_id", 4);
+                intent.putExtra("track_number", 3);
                 startActivity(intent);
 
                 break;
@@ -208,6 +274,7 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "aarti_kunj_bihari_bhajan");
                 intent.putExtra("mantra_name", "Aarti Kunj Bihari Ki");
                 intent.putExtra("image_id", 5);
+                intent.putExtra("track_number", 4);
                 startActivity(intent);
 
                 break;
@@ -217,15 +284,18 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "bada_natkhat_bhajan");
                 intent.putExtra("mantra_name", "Bada Natkhat Hai Krishna");
                 intent.putExtra("image_id", 6);
+                intent.putExtra("track_number", 5);
                 startActivity(intent);
 
                 break;
             case 6:
                 intent.setClass(this, KrishnaBhajan.class);
+
                 intent.putExtra("filename", "choti_choti_gaiya_krishna");
                 intent.putExtra("mantra", "choti_choti_bhajan");
                 intent.putExtra("mantra_name", "Choti Choti Gaiya Chotay");
                 intent.putExtra("image_id", 7);
+                intent.putExtra("track_number", 6);
                 startActivity(intent);
 
                 break;
@@ -235,6 +305,7 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "yashomati_bhajan");
                 intent.putExtra("mantra_name", "Yashomati Maiya Se Bole Nandlala");
                 intent.putExtra("image_id", 8);
+                intent.putExtra("track_number", 7);
                 startActivity(intent);
 
                 break;
@@ -244,14 +315,18 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "mera_aapki_kripa_bhajan");
                 intent.putExtra("mantra_name", "Mera Aapki Kripa Se Sab Kaam");
                 intent.putExtra("image_id", 9);
+                intent.putExtra("track_number", 8);
                 startActivity(intent);
                 break;
+
             case 9:
                 intent.setClass(this, KrishnaBhajan.class);
                 intent.putExtra("filename", "achyutamkeshavam");
                 intent.putExtra("mantra", "achyutam_keshavam_bhajan");
                 intent.putExtra("mantra_name", "Achyutam Keshavam");
                 intent.putExtra("image_id", 10);
+                intent.putExtra("track_number", 9);
+
                 startActivity(intent);
 
                 break;
@@ -262,6 +337,8 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "aredwarpalokanhaiya_bhajan");
                 intent.putExtra("mantra_name", "Are Dwarpalo Kanhaiya Se Kehdo");
                 intent.putExtra("image_id", 11);
+                intent.putExtra("track_number", 10);
+
                 startActivity(intent);
 
                 break;
@@ -272,6 +349,8 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "ek_baar_to_radha_bankar_bhajan");
                 intent.putExtra("mantra_name", "Ek Baar To Radha bankar Dekho Mere Sawariya");
                 intent.putExtra("image_id", 12);
+                intent.putExtra("track_number", 11);
+
                 startActivity(intent);
 
                 break;
@@ -282,6 +361,8 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "gopal_muraliya_wale_bhajan");
                 intent.putExtra("mantra_name", "Gopal Muraliya Wale");
                 intent.putExtra("image_id", 13);
+                intent.putExtra("track_number", 12);
+
                 startActivity(intent);
 
                 break;
@@ -292,6 +373,8 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "govind_bolo_hari_gopal_bolo_bhajan");
                 intent.putExtra("mantra_name", "Govind Bolo hari Gopal Bolo");
                 intent.putExtra("image_id", 14);
+                intent.putExtra("track_number", 13);
+
                 startActivity(intent);
 
                 break;
@@ -302,6 +385,8 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "kabhi_ram_banke_bhajan");
                 intent.putExtra("mantra_name", "Kabhi Ram Banke Kabhi Shyam Banke");
                 intent.putExtra("image_id", 15);
+                intent.putExtra("track_number", 14);
+
                 startActivity(intent);
                 break;
 
@@ -311,6 +396,7 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "kisi_ne_mera_shyam_dekha_bhajan");
                 intent.putExtra("mantra_name", "Kisi Ne Mera Shyam Dekha");
                 intent.putExtra("image_id", 16);
+                intent.putExtra("track_number", 15);
                 startActivity(intent);
                 break;
 
@@ -320,6 +406,7 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "mithe_ras_se_bharyo_bhajan");
                 intent.putExtra("mantra_name", "Mithe Ras Se Bharyo Radha Rani");
                 intent.putExtra("image_id", 17);
+                intent.putExtra("track_number", 16);
                 startActivity(intent);
                 break;
 
@@ -329,6 +416,7 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "mohana_muralidhara_bhajan");
                 intent.putExtra("mantra_name", "Mohana Muralidhara");
                 intent.putExtra("image_id", 18);
+                intent.putExtra("track_number", 17);
                 startActivity(intent);
                 break;
 
@@ -338,6 +426,7 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "om_jai_jagadish_hare_bhajan");
                 intent.putExtra("mantra_name", "Om Jai Jagdish Hare");
                 intent.putExtra("image_id", 19);
+                intent.putExtra("track_number", 18);
                 startActivity(intent);
                 break;
 
@@ -347,6 +436,7 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "radhe_radhe_japa_karo_bhajan");
                 intent.putExtra("mantra_name", "Radhe Radhe Japo Chale Aayenge Bihari");
                 intent.putExtra("image_id", 20);
+                intent.putExtra("track_number", 19);
                 startActivity(intent);
                 break;
 
@@ -356,6 +446,7 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "shri_krishna_govind_hare_murari_bhajan");
                 intent.putExtra("mantra_name", "Shri Krishna Govind Hare Murari");
                 intent.putExtra("image_id", 21);
+                intent.putExtra("track_number", 20);
                 startActivity(intent);
                 break;
 
@@ -365,6 +456,7 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "shyam_teri_bansi_pukare_radha_naam_bhajan");
                 intent.putExtra("mantra_name", "Shyam Teri Bansi");
                 intent.putExtra("image_id", 22);
+                intent.putExtra("track_number", 21);
                 startActivity(intent);
                 break;
 
@@ -374,19 +466,30 @@ public class MantraList extends AppCompatActivity implements AdapterView.OnItemC
                 intent.putExtra("mantra", "shyama_aan_baso_vrindavan_bhajan");
                 intent.putExtra("mantra_name", "Shyama Aan Baso Vrindavan");
                 intent.putExtra("image_id", 23);
+                intent.putExtra("track_number", 22);
                 startActivity(intent);
                 break;
 
-            default:
-                intent.setClass(this, KrishnaBhajan.class);
-                intent.putExtra("filename", "mahamantra");
-                intent.putExtra("mantra", "mahamantra_bhajan");
-                intent.putExtra("mantra_name", "Hare Krishna Hare Rama");
-                intent.putExtra("image_id", 1);
-                startActivity(intent);
-                break;
+//            default:
+//                intent.setClass(this, KrishnaBhajan.class);
+//                intent.putExtra("filename", "mahamantra");
+//                intent.putExtra("mantra", "mahamantra_bhajan");
+//                intent.putExtra("mantra_name", "Hare Krishna Hare Rama");
+//                intent.putExtra("image_id", 1);
+//                intent.putExtra("track_number", 0);
+//                startActivity(intent);
+//                break;
         }
+
+
     }
+
+    @Override
+    public void onBackPressed() {
+
+        super.onBackPressed();
+    }
+
 
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
